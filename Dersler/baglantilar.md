@@ -11,12 +11,17 @@
 - [Github](https://github.com)
 - [Bizim proje](https://github.com/waroi/FrontendOkulu2025)
 - [Can I Use](https://caniuse.com/)
+- [Flex Css Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [D3.js](https://d3js.org/)
+- [Three.js](https://threejs.org/)
 
 ## Extra Kaynaklar
 
 - [Bootstrap Eğitimi](https://www.btkakademi.gov.tr/portal/course/bootstrap-5-24619)
 - [Vue Eğitimi](https://www.btkakademi.gov.tr/portal/course/vue-js-22502)
 - [Git/Github Eğitimi](https://www.btkakademi.gov.tr/portal/course/versiyon-kontrolleri-git-ve-github-19439)
+- [Flexbox Oyunu](https://flexboxfroggy.com/#tr)
+- [Grid Oyunu](https://cssgridgarden.com/#tr)
 
 ## Okumalar
 
