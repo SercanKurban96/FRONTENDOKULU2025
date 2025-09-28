@@ -1,4 +1,4 @@
-# <img width="1284" height="372" alt="image" src="https://github.com/user-attachments/assets/410596c9-f629-47c9-8d66-ef2432a96cdc" />
+# <img width="1284" height="372" alt="image" src="https://github.com/user-attachments/assets/1331433c-18f6-43df-aa04-3fb26c92e73a" />
 
 👋 Merhabalar, Coderspace.io tarafından düzenlenen ve Sayın Varol Maksutoğlu hocamız tarafından verilen bu eğitimde HTML, CSS, JavaScript, Bootstrap ve React konuları ele alınmaktadır.
 <br>
