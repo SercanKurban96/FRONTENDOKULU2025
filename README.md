@@ -3,8 +3,8 @@
 👋 Merhabalar, Coderspace.io tarafından düzenlenen ve Sayın Varol Maksutoğlu hocamız tarafından verilen bu eğitimde HTML, CSS, JavaScript, Bootstrap ve React konuları ele alınmaktadır.
 <br>
 
-## 🖥️ Front-Ent Okulu 2025 - 1. HAFTA: Web Geliştirmeye Giriş, HTML Temelleri
-### 📆 Tarih: 27 Eylül 2025
+# 🖥️ Front-Ent Okulu 2025 - 1. HAFTA: Web Geliştirmeye Giriş, HTML Temelleri
+## 📆 Tarih: 27 Eylül 2025
 
 #### İçerikler:<br>
 🎈 html, head, title etiketleri<br>
@@ -329,3 +329,6 @@ Anlamsal etiketlerde önceden bir div içerisinde id olarak belirliyorduk, ancak
 <br><br>
 
 <hr>
+
+# 🖥️ Front-Ent Okulu 2025 - 1. HAFTA: HTML İleri Seviye, CSS Temelleri, CSS Layout
+## 📆 Tarih: 28 Eylül 2025
