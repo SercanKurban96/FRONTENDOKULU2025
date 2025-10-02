@@ -514,3 +514,21 @@ left top, right bottom, center center, top center vb.<br><br>
 <b>Yüzde (%) veya piksel:</b><br>
 50% 50% → ortadax<br>
 10px 20px → soldan 10px, yukarıdan 20px boşluk bırakır<br><br>
+
+<img width="293" height="177" alt="image" src="https://github.com/user-attachments/assets/ee588e4b-a441-45ae-be51-3e6d36962d4f" />
+<br>
+Burada title ve paragraph class'ları için yazıların boyutlarını belirledik.<br><br>
+
+<img width="482" height="367" alt="image" src="https://github.com/user-attachments/assets/d6c8bebf-18e8-4028-9efb-af93b30b4b19" />
+<br>
+### Responsive Design (Duyarlı Tasarım) Nedir?
+Responsive Design, bir web sitesinin farklı cihazlarda (bilgisayar, tablet, telefon, hatta TV) ekran boyutuna göre otomatik uyum sağlamasıdır.<br>
+📱💻 Yani kullanıcı hangi cihazdan girerse girsin, site düzgün görünür ve kolay kullanılabilir.<br><br>
+
+<img width="697" height="435" alt="image" src="https://github.com/user-attachments/assets/599ba36b-5479-4e43-8482-7aa9705210f1" />
+<br>
+bgImage.html sayfasının çıktısı...<br><br>
+
+<img width="363" height="58" alt="image" src="https://github.com/user-attachments/assets/c822b4dd-be72-47db-817f-55bd72597ce8" />
+<br>
+Bu kez ekleyeceğimiz dosyalar pseudo.html ve pseudo.css olacaktır.<br><br>
