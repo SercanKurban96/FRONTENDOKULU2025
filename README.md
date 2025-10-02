@@ -487,3 +487,30 @@ box.css kodların tam hali bu şekildedir.<br><br>
 <br>
 box.html sayfasını çalıştırdığımız zaman ortaya çıkan sonuç...<br><br>
 
+<img width="381" height="86" alt="image" src="https://github.com/user-attachments/assets/437e7550-4848-4892-a1ac-271576e2b6b9" />
+<br>
+Bu kez background-image oluşturalım.<br><br>
+
+<img width="907" height="402" alt="image" src="https://github.com/user-attachments/assets/3c5b6eea-b8c1-4323-ad90-3e5860dd7a1e" />
+<br>
+bgImage.html için bgImage isminde bir tane div class oluşturalım, ardından h1 başlık için title isminde bir class ve paragraf için paragraph isminde bir class oluşturalım.<br><br>
+
+<img width="905" height="281" alt="image" src="https://github.com/user-attachments/assets/ce64c6c2-62ec-4217-883c-e2539d6a2739" />
+<br>
+bgImage.css dosyasına gelerek burada bir tane background-image özelliğini ekliyoruz. Burada url dedikten sonra istediğiniz herhangi bir sitenin resim bağlantısını kopyalayıp buraya yapıştırabilirsiniz.<br><br>
+
+💠 background-size<br>
+Arka plana yerleştirilen resmin boyutunu ayarlamak için kullanılır.<br><br>
+<b>Değerleri:</b><br>
+auto → Varsayılan. Resim orijinal boyutuyla gösterilir.<br>
+cover → Resmi, kutuyu tamamen kaplayacak şekilde ölçeklendirir (orantıyı korur, taşabilir).<br>
+contain → Resmi, kutunun içine tamamen sığdırır (orantıyı korur, boşluk kalabilir).<br>
+Belirli ölçüler → 100px 200px, 50% 50% gibi.<br><br>
+
+💠 background-position<br>
+Arka plan resminin konumunu belirler.<br><br>
+<b>Değerleri:</b><br>
+left top, right bottom, center center, top center vb.<br><br>
+<b>Yüzde (%) veya piksel:</b><br>
+50% 50% → ortadax<br>
+10px 20px → soldan 10px, yukarıdan 20px boşluk bırakır<br><br>
