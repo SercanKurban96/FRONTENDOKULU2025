@@ -394,3 +394,59 @@ Ayrı bir .css dosyası oluşturulur ve HTML’ye bağlanır (en çok tercih edi
 <br>
 Örnek bir External CSS...<br><br>
 
+<img width="377" height="150" alt="image" src="https://github.com/user-attachments/assets/8a0ded49-4130-43b4-982f-1f3fbcc3d310" />
+<br>
+Ders002 isminde bir klasör oluşturalım. Ardından index.html isminde bir dosya oluşturalım.<br><br>
+
+<img width="377" height="131" alt="image" src="https://github.com/user-attachments/assets/b49b54d0-6f81-4187-a5bd-91e6e4615be8" />
+<br>
+Biz burada External (Harici) CSS dosyası oluşturacağız. Bunun için yeni bir dosya oluşturup ismini style.css olarak belirliyoruz.<br><br>
+
+<img width="832" height="253" alt="image" src="https://github.com/user-attachments/assets/283f67b3-7ce8-477d-af78-ea28554dd178" />
+<br>
+style.css dosyasını entegre etmek için index.html sayfasında yer alan head etiketlerinin arasına gerekli olan etiketimizi yazıyoruz.<br><br>
+
+<img width="1048" height="756" alt="image" src="https://github.com/user-attachments/assets/4b80ac0f-f9d5-4a63-9de4-8145fc475bb4" />
+<br>
+Daha sonra body etiketlerinin arasına gelerek örnek olması açısından bir tane Inline CSS oluşturduk. h2 başlık kısmına geldiğimiz zaman id değerini menu olarak belirledik. Daha sonra bir tane sırasız liste oluşturarak class değerlerini list-item olarak belirledik. Ardından paragrafta yer alan öğelere id ve class değerlerini belirliyoruz. Burada istediğiniz adlandırma yapabilirsiniz.<br>
+❗ Dikkat! Burada id değerlerin hepsi farklı olması gerekmektedir. Class değerleri için bu durum geçerli değildir. Tüm p etiketlerine aynı class ismini verebilirsiniz. id değerini T.C. Kimlik Numarası gibi düşünün.<br>
+✔️ id değeri # ile gösterilirken, class değeri . ile gösterilir.<br>
+Burada id değerlerini paragraf1, paragraf2 olarak belirlerken, class değerlerinin hepsini paragraf olarak belirledik. Şimdi bu değerleri CSS dosyasına aktaralım.<br><br>
+
+<img width="433" height="198" alt="image" src="https://github.com/user-attachments/assets/ce84fd68-8005-41db-a33f-b57a39b9eb34" />
+<br>
+💠 CSS’te * işareti universal selector (evrensel seçici) olarak geçer. Yani sayfadaki tüm HTML öğelerini (elementleri) seçer. Genelde en çok margin ile padding değeri 0 olarak belirlenir. box-sizing kısmı ise border-box olarak değerlendirilir.<br>
+💠 margin, bir elemanın dış boşluğunu ifade eder. Örnek olarak margin: 20px; dediğimiz zaman her yandan 20px boşluk bırakır.<br>
+💠 padding, bir elemanın iç boşluğunu ifade eder. Örnek olarak padding: 15px; dediğimiz zaman içerik ile kenarlık arasında 15px boşluk bırakır.<br>
+💠 box-sizing, bir elemanın genişlik (width) ve yükseklik (height) hesaplanma şeklini belirler. border-box width ve height değerine padding ve border da dahildir. Bu yüzden modern web tasarımda genellikle border-box kullanılır, çünkü ölçümler daha kolay olur.<br><br>
+
+<img width="378" height="111" alt="image" src="https://github.com/user-attachments/assets/fa2e5d20-7e58-4191-a939-776cbac76430" />
+<br>
+h2 id içerisinde yer alan menu öğelerine baktığımız zaman class değerlerini list-item olarak belirlemiştik. Şimdi bu değerleri şekillendirelim.<br>
+💠 font-size, yazı tipinin (fontun) boyutunu ayarlamak için kullanılır. px → piksel (en çok kullanılan)<br>
+💠 color, yazının rengini ayarlamak için kullanılır.<br>
+<b>color Kullanım Şekilleri:</b><br>
+<b>Renk adı:</b> red, green, blue... Örnek: color: red;<br>
+<b>Hexadecimal:</b> #ff0000 Örnek: color: #ff0000<br>
+<b>RGB:</b> rgb(255, 0, 0) Örnek: color: rgb(128, 125, 100)<br><br>
+
+<img width="412" height="168" alt="image" src="https://github.com/user-attachments/assets/deb5dc1d-00cb-48c5-b71f-c78d18bbc757" />
+<br>
+h2 id olarak belirlediğimiz menu öğesini şekillendirelim.<br><br>
+💠 background-color<br>
+Bir HTML elemanının arka plan rengini belirler.<br>
+Yazının değil, kutunun (elemanın arka planının) rengi değişir.<br>
+Kullanım şekilleri tıpkı color özelliğinde olduğu gibi olabilir: renk adı, hex, rgb, rgba, hsl.<br><br>
+
+💠 text-align<br>
+Bir eleman içindeki yazının hizalamasını belirler.<br>
+<b>Değerleri:</b><br>
+left → sola hizalama (varsayılan)<br>
+right → sağa hizalama<br>
+center → ortalama<br>
+justify → her iki yana yaslama (kitap/dergi yazısı gibi)<br><br>
+
+<img width="360" height="207" alt="image" src="https://github.com/user-attachments/assets/c76f99e4-b079-4ff0-9b10-2b305fdeb87c" />
+<br>
+.paragraf class'ı tüm paragraflar için geçerliyken, #paragraf2 id'si ise sadece bu değer için geçerlidir.<br>
+font-weight CSS’te yazının kalınlık (boldluk) derecesini belirlemek için kullanılır.<br><br>
