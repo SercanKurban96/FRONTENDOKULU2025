@@ -531,4 +531,49 @@ bgImage.html sayfasının çıktısı...<br><br>
 
 <img width="363" height="58" alt="image" src="https://github.com/user-attachments/assets/c822b4dd-be72-47db-817f-55bd72597ce8" />
 <br>
-Bu kez ekleyeceğimiz dosyalar pseudo.html ve pseudo.css olacaktır.<br><br>
+Bu kez ekleyeceğimiz dosyalar pseudo.html ve pseudo.css olacaktır. Pseudo Element ve Class konusuna değinelim.<br><br>
+
+<img width="992" height="436" alt="image" src="https://github.com/user-attachments/assets/6ea95b17-4c72-4a81-bf05-0162ff051b75" />
+<br>
+pseudo.html için örnek tasarımımızı oluşturalım.<br><br>
+
+<img width="538" height="525" alt="image" src="https://github.com/user-attachments/assets/e35919e8-2e20-4a04-bb40-8b5ab1787ba4" />
+<br>
+
+<img width="576" height="692" alt="image" src="https://github.com/user-attachments/assets/8af0645d-86f0-4cf4-b216-b083c16c7583" />
+<br>
+pseudo.css için ilk olarak Pseudo Class konusunu ele alalım.<br><br>
+
+### 1. Pseudo Class (Sahte Sınıf)
+Bir elemanın belirli bir durumu için CSS uygulamak demektir.<br>
+👉 Örneğin: fare üzerine gelince, tıklanınca, ilk çocuğu olunca gibi durumlar.<br><br>
+
+hover: Linkin üzerine gelince kırmızı olur.<br>
+active: Eleman tıklanırken uygulanır.<br>
+visited: Bir linkin (a etiketi) ziyaret edilmiş olup olmadığını kontrol eder.<br>
+first-child: Elemanın ebeveynin ilk çocuğu olup olmadığını kontrol eder.<br>
+last-child: Elemanın ebeveynin son çocuğu olup olmadığını kontrol eder.<br>
+nth-child(n): Elemanın ebeveynin n. çocuğu olup olmadığını kontrol eder.<br>
+nth-child(odd): Elemanın tek olan değerlerini kontrol eder.<br>
+nth-child(even): Elemanın çift olan değerlerini kontrol eder.<br><br>
+
+<img width="691" height="647" alt="image" src="https://github.com/user-attachments/assets/45375162-4872-473b-ac28-727d3a79f99d" />
+<br>
+pseudo.css için bu kez Pseudo Element konusunu ele alalım.<br><br>
+
+### 2. Pseudo Element (Sahte Eleman)
+Bir elemanın belirli bir kısmına CSS uygulamak için kullanılır.<br>
+Gerçekte olmayan, sanal (pseudo) bir eleman ekler.<br><br>
+
+first-line: Paragrafın sadece ilk satırı kahverengi.<br>
+first-letter: Paragrafın ilk harfi büyük yazılır.<br>
+before: Paragrafın başına metin, emoji vs. ekler.<br>
+after: Paragrafın sonuna metin, emoji vs. ekler.<br><br>
+
+### Özet Fark:
+Pseudo Class (:) → Elemanın durumunu seçer.<br>
+Örn: :hover, :focus, :first-child<br><br>
+
+Pseudo Element (::) → Elemanın bir bölümünü seçer ya da içerik ekler.<br>
+Örn: ::before, ::after, ::first-line<br><br>
+
