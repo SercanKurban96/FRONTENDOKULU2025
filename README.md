@@ -1,4 +1,4 @@
-# <img width="1284" height="372" alt="image" src="https://github.com/user-attachments/assets/1331433c-18f6-43df-aa04-3fb26c92e73a" />
+<img width="496" height="378" alt="image" src="https://github.com/user-attachments/assets/5e089a08-2be1-4e88-9869-45d3944517b1" /># <img width="1284" height="372" alt="image" src="https://github.com/user-attachments/assets/1331433c-18f6-43df-aa04-3fb26c92e73a" />
 
 👋 Merhabalar, Coderspace.io tarafından düzenlenen ve Sayın Varol Maksutoğlu hocamız tarafından verilen bu eğitimde HTML, CSS, JavaScript, Bootstrap ve React konuları ele alınmaktadır.
 <br>
@@ -450,3 +450,40 @@ justify → her iki yana yaslama (kitap/dergi yazısı gibi)<br><br>
 <br>
 .paragraf class'ı tüm paragraflar için geçerliyken, #paragraf2 id'si ise sadece bu değer için geçerlidir.<br>
 font-weight CSS’te yazının kalınlık (boldluk) derecesini belirlemek için kullanılır.<br><br>
+
+<img width="550" height="678" alt="image" src="https://github.com/user-attachments/assets/6373ff68-6bf7-4e59-8dc7-b01c20cd4ab7" />
+<br>
+style.css kodların tam hali bu şekildedir. index.html üzerinden çalıştıralım.<br><br>
+
+<img width="1880" height="302" alt="image" src="https://github.com/user-attachments/assets/5f444547-3927-43c2-b402-57f3e0b0c1c9" />
+<br>
+index.html ile style.css özelliklerini kullandığımız bir örnek...<br><br>
+
+<img width="370" height="145" alt="image" src="https://github.com/user-attachments/assets/49d4ffd4-f26b-419e-923b-7eec2ab2937b" />
+<br>
+Bu kez kutu oluşturalım. İsimlerini box.html ile box.css olarak belirledik.<br><br>
+
+<img width="811" height="372" alt="image" src="https://github.com/user-attachments/assets/131ce99f-1c48-4b5f-ba10-519d94a10637" />
+<br>
+box.html sayfasına gelerek 3 tane kutu oluşturalım. class değerlerinin hepsini farklı belirledik.<br><br>
+
+<img width="430" height="127" alt="image" src="https://github.com/user-attachments/assets/74b040cc-0c8c-4066-8e4c-846d611f77b0" />
+<br>
+Bir önceki örnekte de aynı değerleri belirledik.<br><br>
+
+<img width="281" height="137" alt="image" src="https://github.com/user-attachments/assets/8212364c-da25-4654-aa20-d2151d64305d" />
+<br>
+box class'ına ait tüm değerler için yükseklik değerini 60px, genişlik değerini 250px ve dış boşluk değerini 10px olarak ayarladık. Eğer margin veya padding değerlerini tek bir değer olarak belirlersek (örneğin margin: 10px) tüm kenarlar için 10px boşluk bırakacaktır, veya tüm kenarlara farklı değer belirlersek (örneğin margin: 10px 20px 15px 5px) bu kez saat yönüne göre boşluklar bırakacaktır. İlk değer 10px yukarıya, 20px sağa, 15px aşağıya ve 5px sola boşluk bırakacaktır.<br>
+
+<img width="496" height="378" alt="image" src="https://github.com/user-attachments/assets/d839dc5b-d671-46ba-90bd-e29707a35296" />
+<br>
+Daha sonra oluşturduğumuz diğer box sınıfına ait red, green, blue için de tek tek kendilerine ait değerler belirledik. Burada margin-left dediğimiz olay, soldan 50px boşluk bırakacaktır. margin-bottom ise aşağıdan 50px boşluk bırakacaktır.<br>
+
+<img width="505" height="652" alt="image" src="https://github.com/user-attachments/assets/5c278797-fab0-4af5-86e6-fe805d0d38fc" />
+<br>
+box.css kodların tam hali bu şekildedir.<br><br>
+
+<img width="462" height="386" alt="image" src="https://github.com/user-attachments/assets/4f71997c-9c66-4929-abc6-ec7e81d087a9" />
+<br>
+box.html sayfasını çalıştırdığımız zaman ortaya çıkan sonuç...<br><br>
+
