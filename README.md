@@ -7,6 +7,7 @@
 ## 📆 Tarih: 27 Eylül 2025
 
 #### İçerikler:<br>
+🎈 HTML nedir?
 🎈 html, head, title etiketleri<br>
 🎈 Başlık etiketleri<br>
 🎈 Paragraf ve Span etiketi<br>
@@ -17,6 +18,17 @@
 🎈 Linke tıklandığında başka bir sayfaya yönlendirme<br>
 🎈 table ve form etiketleri<br>
 🎈 Semantic (header, nav, main, section, article, footer) etiketleri<br><br>
+
+### HTML Nedir?
+HTML, HyperText Markup Language (Hiper Metin İşaretleme Dili) ifadesinin kısaltmasıdır. 🌐<br>
+<b>Amaç:</b> Web sayfalarının iskeletini (yapısını) oluşturmak için kullanılır.<br>
+<b>Nasıl çalışır?</b> HTML, tarayıcıya “bu bir başlıktır”, “bu bir paragraftır”, “bu bir resimdir” gibi komutlar veren işaretleme (etiketleme) dilidir.<br>
+<b>Özellik:</b> Programlama dili değildir; sadece içerikleri düzenler ve yapılandırır.<br><br>
+
+📌 <b>Temel özellikler:</b><br>
+💠 Etiketler (tags) ile çalışır.<br>
+💠 Metin, resim, link, tablo, liste gibi öğeleri tanımlar.<br>
+💠 CSS ile tasarım, JavaScript ile dinamiklik eklenir.<br><br>
 
 ✔️ HTML etiketlerini kullanmak için istediğiniz aracı kullanabilirsiniz. Örnek olarak VS Code, Notepad++, Sublime Text kullanabilirsiniz. Bu eğitimde VS Code kullanılmıştır.<br><br>
 
@@ -332,3 +344,53 @@ Anlamsal etiketlerde önceden bir div içerisinde id olarak belirliyorduk, ancak
 
 # 🖥️ Front-Ent Okulu 2025 - 1. HAFTA: HTML İleri Seviye, CSS Temelleri, CSS Layout
 ## 📆 Tarih: 28 Eylül 2025
+
+#### İçerikler:<br>
+🎈 CSS nedir?
+🎈 Inline CSS<br>
+🎈 Internal CSS<br>
+🎈 External CSS<br>
+🎈 ID ve Class oluşturma<br>
+🎈 Kutu oluşturma<br>
+🎈 Background Image<br>
+🎈 Pseudo Element & Class<br>
+🎈 Animation & Transition<br>
+🎈 Flexbox<br>
+🎈 Grid & Grid Area<br><br>
+
+### CSS Nedir?
+CSS (Cascading Style Sheets) yani Basamaklı Stil Sayfaları, web sayfalarının görsel tasarımını ve stil özelliklerini tanımlamak için kullanılan bir dildir.<br><br>
+
+HTML, web sayfasının iskeletini (metinler, resimler, butonlar vb.) oluştururken;<br>
+CSS, bu içeriklerin nasıl görüneceğini (renk, yazı tipi, boyut, hizalama, arka plan, boşluklar, animasyonlar vs.) belirler.<br><br>
+
+📌 <b>CSS’in Temel Özellikleri:</b><br>
+💠 Sunum ve içerik ayrımı sağlar (HTML içerik, CSS tasarım için kullanılır).<br>
+💠 Web sitelerinde tutarlı tasarım yapılmasına imkân tanır.<br>
+💠 Aynı CSS dosyası birden çok sayfada kullanılabilir.<br>
+💠 Renk, yazı tipi, boyut, kenarlık, konumlandırma gibi görsel ayarları kontrol eder.<br>
+💠 Mobil uyumlu (responsive) tasarımlar yapılmasına olanak tanır.<br><br>
+
+📌 <b> CSS Kullanım Yöntemleri:</b><br>
+
+1️⃣ <b>Inline (Satır içi CSS)</b><br>
+HTML etiketinin içine style özelliği yazılır.<br><br>
+
+<img width="966" height="55" alt="image" src="https://github.com/user-attachments/assets/56a729f5-4050-43c1-bfa7-de79282266b2" />
+<br>
+Örnek bir Inline CSS...<br><br>
+
+2️⃣ <b> Internal (Sayfa içi CSS)</b><br>
+HTML dosyasının head kısmına style etiketi ile yazılır.<br><br>
+
+<img width="762" height="547" alt="image" src="https://github.com/user-attachments/assets/4adc4527-42f3-45f3-a7fc-20ebce4d0f32" />
+<br>
+Örnek bir Internal CSS...<br><br>
+
+3️⃣ <b> External (Harici CSS)</b><br>
+Ayrı bir .css dosyası oluşturulur ve HTML’ye bağlanır (en çok tercih edilen yöntem).<br><br>
+
+<img width="1107" height="155" alt="image" src="https://github.com/user-attachments/assets/5283aabd-2116-47d3-b565-ea7934ac549c" />
+<br>
+Örnek bir External CSS...<br><br>
+
