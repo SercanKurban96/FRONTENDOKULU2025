@@ -577,3 +577,8 @@ Pseudo Class (:) → Elemanın durumunu seçer.<br>
 Pseudo Element (::) → Elemanın bir bölümünü seçer ya da içerik ekler.<br>
 Örn: ::before, ::after, ::first-line<br><br>
 
+<img width="1887" height="256" alt="image" src="https://github.com/user-attachments/assets/f680cdb2-db4e-47af-98bf-043473825fed" />
+<br>
+pseudo.html örnek çıktısı...<br><br>
+
+
