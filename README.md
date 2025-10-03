@@ -798,3 +798,30 @@ grid.css tam hali...<br><br>
 <img width="1913" height="746" alt="image" src="https://github.com/user-attachments/assets/362b4a8a-b63d-43b1-b157-4f997366b151" />
 <br>
 grid.html sayfası...<br><br>
+
+## GRID AREA
+
+<img width="372" height="53" alt="image" src="https://github.com/user-attachments/assets/c89c0ac8-7450-4868-ab5f-45558b977bb4" />
+<br>
+Şimdi oluşturacağımız diğer dosyalar grid-area.html ile grid-area.css dosyaları olacaktır.<br><br>
+
+Grid Area, grid düzeninde hücreleri birleştirerek elementlere belli bir alan (area) ayırmamızı sağlayan özelliktir.<br>
+Yani, bir elemana satır ve sütun aralıklarını tek seferde tanımlayıp, onun hangi bölgeyi kaplayacağını ayarlarsınız.<br><br>
+
+<img width="1355" height="947" alt="image" src="https://github.com/user-attachments/assets/5bffda9d-e58d-42ba-ab4e-dc3e992d382b" />
+<br>
+grid-area.html sayfa tasarımı...<br><br>
+
+<img width="571" height="798" alt="image" src="https://github.com/user-attachments/assets/62872ba2-073d-4036-bb8d-2f91d7f96921" />
+<br>
+grid-template-areas özelliğiyle, alanlara isim verip daha okunabilir şekilde yerleşim yapılabilir.<br><br>
+
+<img width="613" height="803" alt="image" src="https://github.com/user-attachments/assets/7f894b04-877e-4f64-8d3a-89d4ffae73fe" />
+<br>
+grid-area.css tam hali...<br><br>
+
+<img width="1917" height="455" alt="image" src="https://github.com/user-attachments/assets/a79babee-c46a-4efc-85bd-a3831e99c513" />
+<br>
+grid-area.html sayfası...<br><br>
+
+<hr>
