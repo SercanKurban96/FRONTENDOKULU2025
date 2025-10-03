@@ -693,27 +693,27 @@ Normal block ve inline düzenlerde hizalama zor olurken, Flexbox sayesinde kutul
 flex.html tasarımını bu şekilde ayarladık.<br><br>
 
 ### 📌 Flex Container Özellikleri
-Bunlar, kapsayıcıya (.container) uygulanan özelliklerdir:
-display: flex; → Flex özelliğini aktif eder.
-flex-direction → Öğelerin yönünü belirler:
-row (varsayılan) → soldan sağa
-row-reverse → sağdan sola
-column → yukarıdan aşağıya
-column-reverse → aşağıdan yukarıya
-justify-content → Yatayda hizalama:
-flex-start → sola yasla
-flex-end → sağa yasla
-center → ortaya hizala
-space-between → aralarda eşit boşluk bırak
-space-around → her elemanın etrafında boşluk
-space-evenly → tüm boşluklar eşit
-align-items → Dikeyde hizalama (tek satır için):
-flex-start → üste hizala
-flex-end → alta hizala
-center → ortala
-stretch → yüksekliklerine göre uzat
-baseline → yazı çizgisine göre hizala
-flex-wrap → Taşma olursa satır kırma:
-nowrap (varsayılan) → tek satırda sıkıştırır
-wrap → yeni satıra geçer
-wrap-reverse → ters yönde sarar
+Bunlar, kapsayıcıya (.container) uygulanan özelliklerdir:<br><br>
+1️⃣ <b>display: flex;</b> → Flex özelliğini aktif eder.<br>
+2️⃣ <b>flex-direction</b> → Öğelerin yönünü belirler:<br>
+💠 row (varsayılan) → soldan sağa<br>
+💠 row-reverse → sağdan sola<br>
+💠 column → yukarıdan aşağıya<br>
+💠 column-reverse → aşağıdan yukarıya<br>
+3️⃣ <b>justify-content</b> → Yatayda hizalama:<br>
+💠 flex-start → sola yasla<br>
+💠 flex-end → sağa yasla<br>
+💠 center → ortaya hizala<br>
+💠 space-between → aralarda eşit boşluk bırak<br>
+💠 space-around → her elemanın etrafında boşluk<br>
+💠 space-evenly → tüm boşluklar eşit<br>
+4️⃣ <b>align-items</b> → Dikeyde hizalama (tek satır için):<br>
+💠 flex-start → üste hizala<br>
+💠 flex-end → alta hizala<br>
+💠 center → ortala<br>
+💠 stretch → yüksekliklerine göre uzat<br>
+💠 baseline → yazı çizgisine göre hizala<br>
+5️⃣ <b>flex-wrap</b> → Taşma olursa satır kırma:<br>
+💠 nowrap (varsayılan) → tek satırda sıkıştırır<br>
+💠 wrap → yeni satıra geçer<br>
+💠 wrap-reverse → ters yönde sarar<br>
