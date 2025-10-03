@@ -694,26 +694,107 @@ flex.html tasarımını bu şekilde ayarladık.<br><br>
 
 ### 📌 Flex Container Özellikleri
 Bunlar, kapsayıcıya (.container) uygulanan özelliklerdir:<br><br>
-1️⃣ <b>display: flex;</b> → Flex özelliğini aktif eder.<br>
+1️⃣ <b>display: flex;</b> → Flex özelliğini aktif eder.<br><br>
 2️⃣ <b>flex-direction</b> → Öğelerin yönünü belirler:<br>
 💠 row (varsayılan) → soldan sağa<br>
 💠 row-reverse → sağdan sola<br>
 💠 column → yukarıdan aşağıya<br>
-💠 column-reverse → aşağıdan yukarıya<br>
+💠 column-reverse → aşağıdan yukarıya<br><br>
 3️⃣ <b>justify-content</b> → Yatayda hizalama:<br>
 💠 flex-start → sola yasla<br>
 💠 flex-end → sağa yasla<br>
 💠 center → ortaya hizala<br>
 💠 space-between → aralarda eşit boşluk bırak<br>
 💠 space-around → her elemanın etrafında boşluk<br>
-💠 space-evenly → tüm boşluklar eşit<br>
+💠 space-evenly → tüm boşluklar eşit<br><br>
 4️⃣ <b>align-items</b> → Dikeyde hizalama (tek satır için):<br>
 💠 flex-start → üste hizala<br>
 💠 flex-end → alta hizala<br>
 💠 center → ortala<br>
 💠 stretch → yüksekliklerine göre uzat<br>
-💠 baseline → yazı çizgisine göre hizala<br>
+💠 baseline → yazı çizgisine göre hizala<br><br>
 5️⃣ <b>flex-wrap</b> → Taşma olursa satır kırma:<br>
 💠 nowrap (varsayılan) → tek satırda sıkıştırır<br>
 💠 wrap → yeni satıra geçer<br>
-💠 wrap-reverse → ters yönde sarar<br>
+💠 wrap-reverse → ters yönde sarar<br><br>
+
+<img width="717" height="292" alt="image" src="https://github.com/user-attachments/assets/bbc984ab-bb26-41d5-8ffc-3cef56dc3a9a" />
+<br>
+Örnek .container kodları...<br><br>
+
+### 📌 Flex Item Özellikleri
+Bunlar, çocuk elementlere (.item) uygulanır:<br><br>
+1️⃣ order → Sıralamayı değiştirir.<br>
+2️⃣ flex-grow → Elemanın genişleyebilme oranı.<br>
+3️⃣ flex-shrink → Elemanın daralma oranı.<br>
+4️⃣ flex-basis → Başlangıç boyutu.<br>
+5️⃣ align-self → Tek bir elemanın dikey hizasını değiştirme.<br><br>
+
+<img width="507" height="410" alt="image" src="https://github.com/user-attachments/assets/d3a18843-f7c7-4136-a456-a406c2b45628" />
+<br>
+Örnek .item kodları...<br><br>
+
+<img width="1900" height="666" alt="image" src="https://github.com/user-attachments/assets/9a577bc6-4821-46b9-b7c7-8828bb3ca557" />
+<br>
+flex.html sayfa tasarımı...<br><br>
+
+## GRID
+
+<img width="373" height="52" alt="image" src="https://github.com/user-attachments/assets/7999b4cb-e0d1-4543-aa00-790b962bbc15" />
+<br>
+Şimdi oluşturacağımız diğer dosyalar grid.html ile grid.css dosyaları olacaktır.<br><br>
+
+CSS’te Grid Layout (Izgara Sistemi), sayfada elementleri satır ve sütunlara bölerek düzenlemeyi sağlayan güçlü bir yerleşim sistemidir.<br>
+Flexbox daha çok tek boyutlu (ya yatay ya dikey) hizalamada kullanılırken, Grid aynı anda iki boyutlu (hem satır hem sütun) düzen kurmaya yarar.<br><br>
+
+### 📌 Temel Mantık
+Bir elementi grid container yaparsın, içindeki çocuklar grid item olur.<br><br>
+
+### 📌 Grid Container Özellikleri
+
+Bunlar kapsayıcıya (.container) uygulanır:<br><br>
+
+1️⃣ <b>display: grid;</b> → Grid sistemini başlatır.<br>
+2️⃣ <b>grid-template-columns</b> → Kaç sütun olacağını belirler.<br>
+💠 grid-template-columns: 100px 100px 100px; → 3 sütun, her biri 100px.<br>
+💠 grid-template-columns: 1fr 2fr 1fr; → esnek bölümler (fraction).<br>
+💠 repeat(3, 1fr); → tekrar yazım kısayolu.<br>
+3️⃣ <b>grid-template-rows</b> → Satır yüksekliklerini belirler.<br>
+💠 grid-template-rows: 200px auto 100px;<br>
+4️⃣ <b>gap</b> → Satır ve sütun arasındaki boşluk.<br>
+💠 gap: 10px;<br>
+💠 row-gap: 10px; column-gap: 20px;<br>
+5️⃣ <b>justify-items</b> → Hücre içindeki öğeleri yatay hizalar (start, end, center, stretch).<br>
+6️⃣ <b>align-items</b> → Hücre içindeki öğeleri dikey hizalar.<br>
+7️⃣ <b>justify-content & align-content</b> → Tüm ızgarayı kapsayıcıda hizalar.<br><br>
+
+<img width="856" height="602" alt="image" src="https://github.com/user-attachments/assets/62406689-2782-4ca5-9448-7a97ac33a90f" />
+<br>
+grid.html sayfa tasarımı...<br><br>
+
+<img width="730" height="402" alt="image" src="https://github.com/user-attachments/assets/0adae797-26f6-4290-be7c-4a81c558fbca" />
+<br>
+grid.css .container tasarımı...<br><br>
+
+### 📌 Grid Item Özellikleri
+
+Çocuk elementlere uygulanır:<br><br>
+
+1️⃣ <b>grid-column</b> → Hangi sütunlarda yer alacağını belirtir.<br>
+💠 grid-column: 1 / 3; → 1. sütundan başla, 3. sütuna kadar uzan.<br>
+2️⃣ <b>grid-row</b> → Hangi satırlarda olacağını belirtir.<br>
+💠 grid-row: 2 / 4; → 2. satırdan başla, 4. satıra kadar uzan.<br>
+3️⃣ <b>justify-self</b> → Yatayda kendi hizasını belirler.<br>
+4️⃣ <b>align-self</b> → Dikeyde kendi hizasını belirler.<br><br>
+
+<img width="391" height="103" alt="image" src="https://github.com/user-attachments/assets/f8b5487d-2b51-47e7-a600-d766881adf0e" />
+<br>
+grid.css .item tasarımı...<br><br>
+
+<img width="740" height="513" alt="image" src="https://github.com/user-attachments/assets/81c4da8c-e628-4b5e-93dc-ad111309656b" />
+<br>
+grid.css tam hali...<br><br>
+
+<img width="1913" height="746" alt="image" src="https://github.com/user-attachments/assets/362b4a8a-b63d-43b1-b157-4f997366b151" />
+<br>
+grid.html sayfası...<br><br>
