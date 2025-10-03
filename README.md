@@ -459,6 +459,8 @@ style.css kodların tam hali bu şekildedir. index.html üzerinden çalıştıra
 <br>
 index.html ile style.css özelliklerini kullandığımız bir örnek...<br><br>
 
+## BOX
+
 <img width="370" height="145" alt="image" src="https://github.com/user-attachments/assets/49d4ffd4-f26b-419e-923b-7eec2ab2937b" />
 <br>
 Bu kez kutu oluşturalım. İsimlerini box.html ile box.css olarak belirledik.<br><br>
@@ -486,6 +488,8 @@ box.css kodların tam hali bu şekildedir.<br><br>
 <img width="462" height="386" alt="image" src="https://github.com/user-attachments/assets/4f71997c-9c66-4929-abc6-ec7e81d087a9" />
 <br>
 box.html sayfasını çalıştırdığımız zaman ortaya çıkan sonuç...<br><br>
+
+## BACKGROUND IMAGE
 
 <img width="381" height="86" alt="image" src="https://github.com/user-attachments/assets/437e7550-4848-4892-a1ac-271576e2b6b9" />
 <br>
@@ -528,6 +532,8 @@ Responsive Design, bir web sitesinin farklı cihazlarda (bilgisayar, tablet, tel
 <img width="697" height="435" alt="image" src="https://github.com/user-attachments/assets/599ba36b-5479-4e43-8482-7aa9705210f1" />
 <br>
 bgImage.html sayfasının çıktısı...<br><br>
+
+## PSEUDO
 
 <img width="363" height="58" alt="image" src="https://github.com/user-attachments/assets/c822b4dd-be72-47db-817f-55bd72597ce8" />
 <br>
@@ -581,4 +587,133 @@ Pseudo Element (::) → Elemanın bir bölümünü seçer ya da içerik ekler.<b
 <br>
 pseudo.html örnek çıktısı...<br><br>
 
+## ANIMATION & TRANSITION
 
+<img width="357" height="78" alt="image" src="https://github.com/user-attachments/assets/9c01e2f0-1263-461d-8c2a-77c8e09dda93" />
+<br>
+Bu kez animasyon oluşturmak için animation.html ve css dosyalarını ekliyoruz.<br><br>
+
+<img width="813" height="413" alt="image" src="https://github.com/user-attachments/assets/f0e5d0ee-3578-4c6f-8c00-633e9dd605e2" />
+<br>
+animation.html sayfa tasarımı... Burada div etiketinden box isminde bir class oluşturduk.<br><br>
+
+<img width="527" height="215" alt="image" src="https://github.com/user-attachments/assets/fe288a07-3b0c-4e66-90fa-358ede5b00b2" />
+<br>
+animation.css dosyasına geldiğimiz zaman bir body içerisine CSS özelliklerini yazıyoruz. Burada arka plan rengini, yükseklik değerini, margin ve padding değerlerini girdik.<br><br>
+
+<img width="467" height="200" alt="image" src="https://github.com/user-attachments/assets/103e9ba9-b1fd-467e-bb42-c82aae9215cc" />
+<br>
+Burada box sınıfına CSS değerlerini yazıyoruz. Burada Transition ile ilgili birkaç komut ekledik.<br><br>
+
+### 1. transition-duration
+Geçişin ne kadar süreceğini belirler.<br>
+Birim olarak s (saniye) veya ms (milisaniye) kullanılır.<br>
+transition-duration: 1s; geçişin 1 saniye süreceğini gösterir.<br><br>
+
+### 2. transition-timing-function
+Geçişin hız eğrisini (ivmelenmesini) belirler. Yani animasyonun başlarken ve biterken hızının nasıl değişeceğini ayarlar.<br>
+Sık kullanılan değerler:<br><br>
+
+💠 ease → Yavaş başlar, hızlanır, sonra tekrar yavaşlar (varsayılan).<br>
+💠 linear → Baştan sona aynı hızda.<br>
+💠 ease-in → Yavaş başlar, sonra hızlanır.<br>
+💠 ease-out → Hızlı başlar, sonra yavaşlar.<br>
+💠 ease-in-out → Yavaş başlar, ortada hızlanır, sonra tekrar yavaşlar.<br><br>
+
+### 3. transition-property
+Hangi CSS özelliğinin geçiş animasyonuna dahil olacağını belirtir.<br>
+Tek bir özellik ya da all kullanılabilir.<br><br>
+
+<img width="627" height="67" alt="image" src="https://github.com/user-attachments/assets/00ab14de-b1d4-46b9-a508-f1a4eb66cfc4" />
+<br>
+✔️ Bu üç değeri tek bir satırda da yazabiliriz.<br><br>
+
+<img width="672" height="401" alt="image" src="https://github.com/user-attachments/assets/0a84b525-15b2-4e7c-b221-61d0324b734f" />
+<br>
+CSS'te iç içe class olarak da oluşturabiliriz. Burada box sınıfı içerisinde text sınıfına ait olan özellikleri de ekledik.<br><br>
+
+<img width="742" height="207" alt="image" src="https://github.com/user-attachments/assets/8c8a60ae-2f24-481b-8087-abfd0e596757" />
+<br>
+Burada transition'da da yaptığımız gibi istersek özellikleri tek tek belirleriz veya istersek tek bir satırda da yapabiliriz.<br><br>
+
+<img width="497" height="342" alt="image" src="https://github.com/user-attachments/assets/ecc1e13a-a541-476d-ad01-c08352d331c5" />
+<br>
+
+CSS’te @keyframes ile animasyon tanımladıktan sonra, o animasyonu bir elemana uygularken çeşitli animation özelliklerini kullanırız.<br><br>
+
+### 1. animation-duration
+Animasyonun ne kadar süreceğini belirler.<br>
+Birim: s (saniye) veya ms (milisaniye).<br>
+animation-duration: 2s; animasyon 2 saniyede tamamlanır.<br><br>
+
+### 2. animation-name
+Hangi @keyframes animasyonunun kullanılacağını belirtir.<br>
+Yazdığınız @keyframes ismi ile aynı olmalıdır.<br>
+Burada animasyon ismini kutuAnimasyon olarak belirledik.<br><br>
+
+### 3. animation-iteration-count
+Animasyonun kaç kez çalışacağını ayarlar.<br><br>
+
+Değerler:<br><br>
+Sayı → örn. 2, 5 (o kadar tekrar eder).<br>
+infinite → sonsuza kadar tekrar eder.<br><br>
+
+### 4. animation-timing-function
+
+Animasyonun hız eğrisini (başlangıç ve bitişteki hızlanma/yavaşlama) belirler.<br><br>
+
+Değerler:<br><br>
+💠 linear → sabit hız.<br>
+💠 ease → yavaş başlar, hızlanır, sonra yavaşlar (varsayılan).<br>
+💠 ease-in → yavaş başlar, hızlanarak biter.<br>
+💠 ease-out → hızlı başlar, yavaş biter.<br>
+💠 ease-in-out → yavaş başlar, hızlanır, tekrar yavaşlar.<br><br>
+
+<img width="548" height="218" alt="image" src="https://github.com/user-attachments/assets/e2da99b5-0544-4cb1-8039-305d0c589cb4" />
+<br>
+Kutunun üzerine gelindiği zaman bu işlemler yapılmaktadır.<br><br>
+border-radius; bir elementin köşelerini yuvarlatmak için kullanılır. Piksel (px), yüzde (%) gibi değerler alır.<br>
+
+opacity; bir elementin saydamlık (şeffaflık) seviyesini ayarlamak için kullanılır. Değer aralığı 0 ile 1 arasındadır:<br><br>
+1 → tamamen opak (görünür).<br>
+0.5 → yarı saydam.<br>
+0 → tamamen görünmez.<br><br>
+
+## FLEX
+
+<img width="360" height="52" alt="image" src="https://github.com/user-attachments/assets/4ed376b2-ddd7-48bd-bde1-efccfde11920" />
+<br>
+Şimdi oluşturacağımız diğer dosyalar flex.html ile flex.css dosyaları olacaktır.<br><br>
+
+CSS’te Flex (Flexbox), sayfa yerleşimini düzenlemek için kullanılan esnek bir kutu modelidir.<br>
+Normal block ve inline düzenlerde hizalama zor olurken, Flexbox sayesinde kutuları (div, span, buton, vs.) çok daha kolay şekilde yan yana, alt alta, ortada veya aralıklı yerleştirebilirsiniz.<br><br>
+
+<img width="987" height="810" alt="image" src="https://github.com/user-attachments/assets/5f02bd25-b33b-4d1c-848d-e0349cc7acf4" />
+<br>
+flex.html tasarımını bu şekilde ayarladık.<br><br>
+
+### 📌 Flex Container Özellikleri
+Bunlar, kapsayıcıya (.container) uygulanan özelliklerdir:
+display: flex; → Flex özelliğini aktif eder.
+flex-direction → Öğelerin yönünü belirler:
+row (varsayılan) → soldan sağa
+row-reverse → sağdan sola
+column → yukarıdan aşağıya
+column-reverse → aşağıdan yukarıya
+justify-content → Yatayda hizalama:
+flex-start → sola yasla
+flex-end → sağa yasla
+center → ortaya hizala
+space-between → aralarda eşit boşluk bırak
+space-around → her elemanın etrafında boşluk
+space-evenly → tüm boşluklar eşit
+align-items → Dikeyde hizalama (tek satır için):
+flex-start → üste hizala
+flex-end → alta hizala
+center → ortala
+stretch → yüksekliklerine göre uzat
+baseline → yazı çizgisine göre hizala
+flex-wrap → Taşma olursa satır kırma:
+nowrap (varsayılan) → tek satırda sıkıştırır
+wrap → yeni satıra geçer
+wrap-reverse → ters yönde sarar
