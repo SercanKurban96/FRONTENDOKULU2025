@@ -1148,3 +1148,33 @@ Bu tema genellikle uyarı, hata veya dikkat çekici durumlarda kullanılır.<br>
 <br>
 Görünümü bu şekildedir.<br><br>
 
+## BOOTSTRAP FORMS
+
+<img width="381" height="130" alt="image" src="https://github.com/user-attachments/assets/000837a7-7bdd-4b78-a482-aa5fd135ae68" />
+<br>
+03-Forms.html isminde bir dosya oluşturalım.<br><br>
+
+<img width="428" height="680" alt="image" src="https://github.com/user-attachments/assets/4663a6d5-03f3-41ab-b34c-e1c5bb41cc0d" />
+<br>
+Forms örnekleri için sol tarafta bulunan örneklere tıklayarak inceleyebilirsiniz.<br><br>
+
+Bootstrap’ta Forms (Formlar), kullanıcıdan veri almak için kullanılan görsel olarak düzenlenmiş form bileşenleridir.<br>
+Bootstrap, HTML formlarını daha şık, hizalı, duyarlı (responsive) ve kullanıcı dostu hale getiren hazır stiller ve sınıflar sunar.<br><br>
+
+<img width="1017" height="538" alt="image" src="https://github.com/user-attachments/assets/4c993f32-9404-4910-8b6d-830d6c105043" />
+<br>
+Buradan ilk örneği alıp inceleyelim.<br><br>
+
+<img width="962" height="677" alt="image" src="https://github.com/user-attachments/assets/f21a57a4-8a9c-4a89-a32f-0757d58d3942" />
+<br>
+İlk örneğimizi sayfamıza aktaralım. Burada küçük bir değişiklik yapacağız.<br><br>
+
+<img width="922" height="666" alt="image" src="https://github.com/user-attachments/assets/741b4d1c-3a1c-4fef-8ed1-65974f338a8d" />
+<br>
+Bir önceki görsele baktığınızda id ve label for değerlerin başında example yazmaktaydı. Gerçek projelerde isimlendirme yaparken dikkat edilmesi gereken kural doğru adlandırmanın yapılmasıdır. Burada example ismini adlandırmak bizim için bir dezavantaj olacaktır. Bu nedenle isimlerin başındaki example yazılarını kaldırdık.<br>
+⚠️ label for ile id değerleri <b>aynı olmak zorundadır!!!</b><br><br>
+
+<img width="1908" height="345" alt="image" src="https://github.com/user-attachments/assets/cf475380-2ac8-4c30-9dad-dcccf7002889" />
+<br>
+Görünümü bu şekildedir. Bootstrap özelliği sayesinde metin kutularının boyutları daha güzel gözükmesini sağladı.<br><br>
+
