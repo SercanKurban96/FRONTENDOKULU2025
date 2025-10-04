@@ -874,6 +874,10 @@ Bootstrap’ı kullanmak için sayfanın <head> kısmına şu bağlantıları ek
 <br>
 Çalıştırdığımız zaman yazı tipinin değiştiğini fark edeceksiniz.<br><br>
 
+<img width="427" height="615" alt="image" src="https://github.com/user-attachments/assets/b75deecc-ce5b-4622-b581-c40485a8e1a1" />
+<br>
+Burada Bootstrap'e ait tüm özellikleri inceleyebilirsiniz.<br><br>
+
 ## BOOTSTRAP LAYOUT CONTAINERS
 
 <img width="1317" height="400" alt="image" src="https://github.com/user-attachments/assets/d63fd41e-b393-496b-bd24-8954e1e891cf" />
@@ -994,3 +998,123 @@ ama büyük ekranlarda 3. sıraya geçer.<br><br>
 Görünüm bu şekildedir.<br><br>
 
 ## BOOTSTRAP GUTTER
+
+Bootstrap’ta gutter, grid (ızgara) sisteminde sütunlar (columns) arasındaki boşlukları ifade eder.<br>
+Yani sayfa düzeninde, örneğin iki sütun yan yana geldiğinde aralarındaki yatay boşluğa “gutter” denir.<br><br>
+
+### Gutter ne işe yarar?
+
+Gutter sayesinde sayfanızdaki içerikler birbirine yapışmadan, aralarında estetik bir mesafe bırakılarak görüntülenir.<br>
+Bu, hem okunabilirliği artırır hem de tasarımı düzenli hale getirir.<br><br>
+
+### Varsayılan Gutter Değerleri
+
+Bootstrap 5’te gutter’lar varsayılan olarak:<br><br>
+
+Yatayda (x yönü): 1.5rem<br>
+Dikeyde (y yönü): 0<br>
+olarak ayarlanmıştır.<br><br>
+
+### Gutter Sınıfları (Bootstrap 5)
+
+Bootstrap, gutter boşluklarını değiştirmek için hazır sınıflar sağlar:<br><br>
+
+g-0 → Tüm gutter boşluklarını kaldırır.<br>
+gx-* → Yalnızca yatay (x) gutter’ı ayarlar.<br>
+gy-* → Yalnızca dikey (y) gutter’ı ayarlar.<br>
+g-* → Hem yatay hem dikey gutter’ı aynı anda ayarlar.<br><br>
+'*' yerine 0 ile 5 arasında bir sayı yazılır.<br>
+(0 = hiç boşluk yok, 5 = en fazla boşluk)<br><br>
+
+<img width="773" height="402" alt="image" src="https://github.com/user-attachments/assets/92189752-0f67-4f4b-9746-f0e444892c64" />
+<br>
+Örnek Gutter sayfa tasarımı...<br><br>
+
+<img width="1905" height="220" alt="image" src="https://github.com/user-attachments/assets/e8ed2394-fad8-4f15-8842-8fcd3baa0f01" />
+<br>
+Görünüm bu şekildedir.<br><br>
+
+## BOOTSTRAP HEADER
+
+<img width="672" height="582" alt="image" src="https://github.com/user-attachments/assets/c1242929-9448-422b-906c-1c8f64cd7107" />
+<br>
+Burada 3 farklı başlıkların özelliklerini ele aldık. Burada display class'ı Bootstrap'e ait olan başlıkları ekledik.<br><br>
+
+<img width="1166" height="872" alt="image" src="https://github.com/user-attachments/assets/58e48f01-d968-4a5b-aa10-5d3792a9cd40" />
+<br>
+Görünüm bu şekildedir.<br><br>
+
+## BOOTSTRAP IMAGES
+
+<img width="991" height="280" alt="image" src="https://github.com/user-attachments/assets/c92eb8b7-f937-4cce-b02c-6c4eee0e2624" />
+<br>
+
+### container mt-5 Nedir?
+
+CSS’teki margin-top özelliğini temsil eder.<br>
+Yani elemanın üst kısmına boşluk (marjin) ekler.<br>
+5 sayısı, Bootstrap’in boşluk ölçeğine göre büyük bir boşluktur.<br><br>
+
+### col-9 mx-auto Nedir?
+col-9<br><br>
+
+Bootstrap grid sisteminde bir satır (row) içinde sütun (column) genişliğini belirtir.<br>
+Grid sistemi 12 sütuna dayanır.<br>
+→ col-9 demek “12 sütunun 9’unu kapla” anlamına gelir.<br><br>
+
+mx-auto<br><br>
+CSS’te margin-left: auto; margin-right: auto; anlamına gelir.<br>
+Yani elemanı yatayda ortalar.<br><br>
+
+🧩 “col-9 mx-auto” → 9 sütun genişliğinde, yatayda ortalanmış bir alan oluşturur.<br><br>
+
+### img-fluid Nedir?
+
+Görsellerin ekran boyutuna göre otomatik küçülüp büyümesini (responsive olmasını) sağlar.<br>
+“img-fluid” = Görsel ekran boyutuna göre kendini ayarlar, taşma yapmaz.<br><br>
+
+<img width="1836" height="487" alt="image" src="https://github.com/user-attachments/assets/6aaa5155-328d-4e3d-a998-bad814d80ecf" />
+<br>
+Sayfayı küçülttüğünüzde resmin boyutunu otomatik olarak oluşturacaktır.<br><br>
+
+## BOOSTRAP TABLE
+
+<img width="387" height="101" alt="image" src="https://github.com/user-attachments/assets/b21a18d4-bf79-43f9-8f3e-656ef48acfd9" />
+<br>
+Yeni bir html dosyası oluşturuyoruz ve ismini 02-Table.html olarak belirliyoruz.<br><br>
+
+<img width="1486" height="561" alt="image" src="https://github.com/user-attachments/assets/1ec18746-ae07-4c1a-8566-1ffe8240a7ea" />
+<br>
+Tables için sol tarafta yer alan Content kısmından örneklere bakabilirsiniz.<br><br>
+
+<img width="1012" height="498" alt="image" src="https://github.com/user-attachments/assets/9269ed9e-38af-41a2-b24a-da1a20ce11f2" />
+<br>
+Örnek olarak ilk sıradaki kodları alalım. İşaretlediğim alana tıklarsanız kodları kopyalayacaktır.<br><br>
+
+❗<b>BOOTSTRAP KODLARINI ALMAYI UNUTMAYIN!!!</b><br><br>
+
+<img width="1367" height="911" alt="image" src="https://github.com/user-attachments/assets/70d5b9f5-3c28-4181-a0dd-9ec2f7a58dde" />
+<br>
+Kopyaladığımız tabloyu sayfamıza aktaralım.<br><br>
+
+<img width="1917" height="150" alt="image" src="https://github.com/user-attachments/assets/10162cbb-c1c1-438c-97f5-a0c23524c89d" />
+<br>
+Çalıştırdığımız zaman sayfanın görünümü bu şekilde olacaktır. Birkaç Bootstrap özelliği ekleyelim.<br><br>
+
+<img width="1153" height="347" alt="image" src="https://github.com/user-attachments/assets/0c8dd712-9c4c-49a6-a1fe-e6b4e4e97bda" />
+<br>
+İlk olarak table class'a gelerek table-dark özelliğini ekleyelim.<br><br>
+
+<img width="1913" height="147" alt="image" src="https://github.com/user-attachments/assets/5ec68e9c-0d66-4d34-84e5-fa615da4aee9" />
+<br>
+Çalıştırdığımız zaman tablonun görünümü siyah oldu.<br><br>
+
+<img width="1020" height="230" alt="image" src="https://github.com/user-attachments/assets/c9738ddd-8e9d-49c7-9378-4618bc5a9683" />
+<br>
+Bootstrap’ta table-striped, bir tabloya satır satır renkli (şeritli) bir arka plan eklemek için kullanılan bir sınıftır.<br>
+Yani tablo satırlarını daha okunabilir ve düzenli hale getirmek için her çift satıra farklı bir arka plan rengi verir.<br>
+Bu, özellikle uzun tabloların satırlarını kolayca ayırt etmeyi sağlar.<br><br>
+
+<img width="1913" height="148" alt="image" src="https://github.com/user-attachments/assets/8cbb56a5-1abd-48bd-8ad5-3e80b7aad717" />
+<br>
+Görünümü bu şekildedir.<br><br>
