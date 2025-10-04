@@ -829,6 +829,15 @@ grid-area.html sayfası...<br><br>
 # 🖥️ Front-Ent Okulu 2025 - 2. HAFTA: Responsive Design, Bootstrap & Tailwind
 ## 📆 Tarih: 4 Ekim 2025
 
+#### İçerikler:<br>
+🎈 Bootstrap nedir?<br>
+🎈 Bootstrap'in temel özellikleri nelerdir?<br>
+🎈 Bootstrap nasıl kullanılır?<br>
+🎈 Bootstrap Layout Containers, Grid, Gutter, Header, Images<br>
+🎈 Bootstrap Tables<br>
+🎈 Bootstrap Forms, Sizing, Input Group, Floating, Validation<br>
+🎈 Bootstrap Components, Accordion, Navbar, Carousel<br><br>
+
 Bootstrap Linki: https://getbootstrap.com/ <br><br>
 
 ## Bootstrap Nedir?
