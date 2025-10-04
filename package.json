@@ -1,0 +1,24 @@
+{
+  "name": "frontendokulu2025",
+  "version": "1.0.0",
+  "description": "👋 Merhabalar, Coderspace.io tarafından düzenlenen ve Sayın Varol Maksutoğlu hocamız tarafından verilen bu eğitimde HTML, CSS, JavaScript, Bootstrap ve React konuları ele alınmaktadır.\r <br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SercanKurban96/FRONTENDOKULU2025.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SercanKurban96/FRONTENDOKULU2025/issues"
+  },
+  "homepage": "https://github.com/SercanKurban96/FRONTENDOKULU2025#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.93.2"
+  }
+}
