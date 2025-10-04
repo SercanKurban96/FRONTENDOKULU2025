@@ -1118,3 +1118,24 @@ Bu, özellikle uzun tabloların satırlarını kolayca ayırt etmeyi sağlar.<br
 <img width="1913" height="148" alt="image" src="https://github.com/user-attachments/assets/8cbb56a5-1abd-48bd-8ad5-3e80b7aad717" />
 <br>
 Görünümü bu şekildedir.<br><br>
+
+<img width="766" height="162" alt="image" src="https://github.com/user-attachments/assets/da4550b6-baf8-448e-85de-90032e93d4f2" />
+<br>
+Bootstrap’ta table-hover, bir tablodaki satırların fareyle üzerine gelindiğinde (hover) arka plan renginin değişmesini sağlar.<br>
+Bu özellik, kullanıcının hangi satırda olduğunu kolay fark etmesini sağlar — özellikle uzun tablolarda okunabilirliği artırmak için çok faydalıdır.<br><br>
+
+<img width="902" height="117" alt="image" src="https://github.com/user-attachments/assets/966546ab-3808-492c-ab2c-81b0fc6dce51" />
+<br>
+Bootstrap’ta table-bordered, bir tablodaki tüm hücrelere (hem satır hem sütunlara) kenarlık (çerçeve) ekleyen bir sınıftır.<br>
+Yani tabloya görsel olarak kutucuk görünümü kazandırır ve satır–sütun ayrımlarını netleştirir.<br><br>
+
+<img width="1011" height="141" alt="image" src="https://github.com/user-attachments/assets/5c7af960-f59a-46bc-aaa2-5b8ffc24c0df" />
+<br>
+Bootstrap’ta border-danger, bir elementin kenarlık (border) rengini kırmızı yapmaya yarayan bir sınıftır.<br>
+“Danger” ifadesi Bootstrap’in renk temalarından biridir (örneğin danger, primary, success, warning, info gibi).<br>
+Bu tema genellikle uyarı, hata veya dikkat çekici durumlarda kullanılır.<br><br>
+
+<img width="1912" height="141" alt="image" src="https://github.com/user-attachments/assets/3fd58a40-c49c-46c2-8ebe-5d8150398a06" />
+<br>
+Görünümü bu şekildedir.<br><br>
+
