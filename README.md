@@ -825,3 +825,54 @@ grid-area.css tam hali...<br><br>
 grid-area.html sayfası...<br><br>
 
 <hr>
+
+# 🖥️ Front-Ent Okulu 2025 - 2. HAFTA: Responsive Design, Bootstrap & Tailwind
+## 📆 Tarih: 4 Ekim 2025
+
+Bootstrap Linki: https://getbootstrap.com/ <br><br>
+
+## Bootstrap Nedir?
+Bootstrap, web siteleri ve web uygulamaları tasarlamak için kullanılan, HTML, CSS ve JavaScript tabanlı açık kaynaklı (free & open source) bir frontend framework’tür.<br>
+Yani kısaca:<br>
+👉 Web sayfalarının daha hızlı, daha düzenli ve mobil uyumlu (responsive) şekilde tasarlanmasını sağlar.<br><br>
+
+### 🧩 Bootstrap’in Temel Özellikleri
+
+1️⃣ <b>Responsive (Mobil Uyumlu) Tasarım:</b><br>
+💠 Bootstrap, “grid sistemi (ızgara sistemi)” sayesinde sayfaların ekran boyutuna göre otomatik olarak uyum sağlamasını kolaylaştırır.<br>
+💠 Telefon, tablet, bilgisayar fark etmeksizin düzen bozulmadan görüntü sağlanır.<br><br>
+
+2️⃣ <b>Hazır CSS Bileşenleri:</b><br>
+Butonlar (.btn), kartlar (.card), menüler (.navbar), formlar (.form-control), tablo stilleri (.table) gibi birçok hazır tasarım sınıfı içerir.<br>
+Böylece sıfırdan CSS yazmana gerek kalmaz.<br><br>
+
+3️⃣ <b>Hazır JavaScript Bileşenleri:</b><br>
+Modal (açılır pencere), dropdown menü, carousel (slider), tooltip gibi dinamik öğeleri kolayca ekleyebilirsiniz.<br><br>
+
+4️⃣ <b>Kolay Özelleştirme:</b><br>
+Varsayılan renkleri, boyutları ve stilleri değiştirerek kendi temana uygun hale getirebilirsiniz.<br><br>
+
+### ⚙️ Bootstrap Nasıl Kullanılır?
+
+<img width="1880" height="882" alt="image" src="https://github.com/user-attachments/assets/7c317bda-907b-4947-b5d2-16dc1d81a838" />
+<br>
+Siteye girdiğimizde sol üstte menüler yer almaktadır. Buradan Docs menüsüne gidiyoruz.<br><br>
+
+<img width="1447" height="767" alt="image" src="https://github.com/user-attachments/assets/f94fa35a-0778-4e2f-8796-745c187b997f" />
+<br>
+Ardından sayfayı az aşağıya indirdiğimiz zaman 2. sırada bulunan Include Bootstrap’s CSS and JS metninde yer alan kodları göreceksiniz. Buradaki kodları kopyalıyoruz.<br><br>
+
+<img width="371" height="192" alt="image" src="https://github.com/user-attachments/assets/d09c5cbb-4ad6-4b86-a95a-89a513eaf7b2" />
+<br>
+Ders003 isminde bir klasör oluşturup ismini 01-Layout.html olarak belirledik. Burada istediğiniz ismi belirleyebilirsiniz.<br><br>
+
+<img width="1302" height="565" alt="image" src="https://github.com/user-attachments/assets/196454a4-03ec-4aab-8338-0676530d298f" />
+<br>
+Bootstrap’ı kullanmak için sayfanın <head> kısmına şu bağlantıları eklersiniz. Ardından body kısmına gelerek en alt kısma script bağlantısını eklersiniz.<br><br>
+
+<img width="1907" height="417" alt="image" src="https://github.com/user-attachments/assets/94693c43-a2e4-4be3-ad34-9e36ddd156cb" />
+<br>
+Çalıştırdığımız zaman yazı tipinin değiştiğini fark edeceksiniz.<br><br>
+
+
+
