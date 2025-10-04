@@ -949,3 +949,48 @@ Genellikle ikincil (secondary) veya önemsiz işlemler için kullanılır.<br>
 <img width="1907" height="283" alt="image" src="https://github.com/user-attachments/assets/bece4466-28c9-45ac-a01d-c165c9f5cbe6" />
 <br>
 Görünüm bu şekildedir.<br><br>
+
+## BOOTSTRAP GRID
+
+Bunlar Bootstrap’ın grid (ızgara) sistemine ait sınıflardır ve sayfa düzenini (layout) oluşturmak için kullanılır.<br><br>
+
+<img width="877" height="200" alt="image" src="https://github.com/user-attachments/assets/afa6737c-c1cb-4bbf-87e3-adca2a45c750" />
+<br>
+
+### col-12 Nedir?
+
+col-12, bir kolon (sütun) genişliğini belirtir.<br>
+Bootstrap, sayfayı 12 eşit sütuna böler.<br>
+col-12 demek → “Bu eleman tüm satırı (12 sütunu) kaplasın.” anlamına gelir.<br><br>
+
+### col-lg-2 Nedir?
+
+col-lg-2, “large (büyük)” ekranlarda 12 sütunun 2’sini kapla anlamına gelir.<br>
+Yani büyük ekranlarda genişliği küçülür (örneğin 2/12 = %16.6).<br><br>
+
+➡️ <b>Bu ne anlama gelir:</b><br><br>
+
+Küçük ekranlarda (col-12) → tam genişlik (tüm satırı kaplar)<br>
+Büyük ekranlarda (col-lg-2) → satırın sadece 2/12’sini (yaklaşık %16) kaplar<br>
+Yani responsive (duyarlı) bir düzen oluşur.<br><br>
+
+### order-1 Nedir?
+
+order-* sınıfları, sütunların sırasını (görünme sırasını) belirler.<br>
+Varsayılan olarak sütunlar HTML sırasına göre görünür ama order ile bu sıralama değiştirilebilir.<br><br>
+
+order-1 → sütun 1. sırada görünür<br>
+order-2 → sütun 2. sırada görünür<br>
+vb.<br><br>
+
+### order-lg-3 Nedir?
+
+order-lg-3 sınıfı, sadece büyük (large) ekranlarda sıralamayı değiştirir.<br>
+Yani küçük ekranlarda normal sırası korunur,<br>
+ama büyük ekranlarda 3. sıraya geçer.<br><br>
+
+<img width="1901" height="268" alt="image" src="https://github.com/user-attachments/assets/b1ea35bc-2dbb-4a69-b01d-57adc634d627" />
+<br>
+Görünüm bu şekildedir.<br><br>
+
+## BOOTSTRAP GUTTER
