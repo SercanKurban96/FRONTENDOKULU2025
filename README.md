@@ -874,5 +874,78 @@ Bootstrap’ı kullanmak için sayfanın <head> kısmına şu bağlantıları ek
 <br>
 Çalıştırdığımız zaman yazı tipinin değiştiğini fark edeceksiniz.<br><br>
 
+## BOOTSTRAP LAYOUT CONTAINERS
 
+<img width="1317" height="400" alt="image" src="https://github.com/user-attachments/assets/d63fd41e-b393-496b-bd24-8954e1e891cf" />
+<br>
+Burada div etiketi içerisine container adlı bir class'a ek olarak md ve bunun yanına bg-info ekledik.<br><br>
 
+### container-md Nedir?
+
+Bootstrap’ta container sınıfı, sayfadaki içerikleri belli bir genişlikte ortalamak ve responsive (ekran boyutuna duyarlı) şekilde hizalamak için kullanılır.<br><br>
+container sınıfının farklı versiyonları vardır:<br><br>
+💠 container → Her ekran boyutuna göre otomatik ayarlanır.<br>
+💠 container-fluid → Her zaman tam ekran genişliğindedir.<br>
+💠 container-sm, container-md, container-lg, container-xl, container-xxl → Belirli breakpoint (ekran boyutu) değerlerine göre genişliği değiştirir.<br><br>
+
+👉 container-md:<br>
+Bu sınıf, ekran boyutu md (medium) ve daha büyük olduğunda sabit genişlikte olur, daha küçük ekranlarda (sm, xs) tam genişlikte (fluid) hale gelir.<br><br>
+
+<b>Yani:</b><br>
+💠 Küçük ekranlarda (örneğin telefon): Tam ekran genişliği kaplar.<br>
+💠 Orta ve büyük ekranlarda (örneğin tablet, bilgisayar): Ortalanmış sabit genişlikte olur.<br><br>
+
+### bg-info Nedir?
+
+bg-info, Bootstrap’in renk sınıflarından (background utilities) biridir.<br>
+Bu sınıf, öğeye açık mavi tonlarında bir arka plan rengi verir.<br>
+(info temalı renk genellikle bilgilendirme mesajlarında kullanılır.)<br><br>
+
+<img width="1282" height="268" alt="image" src="https://github.com/user-attachments/assets/34edd828-7870-45ca-8b4d-f41276355405" />
+<br>
+Daha sonra burada h1 etiketi içerisine bir class oluşturarak isimlerini text-center ve text-danger olarak belirledik.<br><br>
+
+### text-center Nedir?
+
+text-center, Bootstrap’in metin hizalama (text alignment) sınıfıdır.<br>
+Bu sınıf, bir öğe içindeki yazıyı yatay olarak ortalar.<br><br>
+
+### text-danger Nedir?
+
+text-danger, Bootstrap’in renk sınıflarından (text color utilities) biridir.<br>
+Bu sınıf, metnin rengini kırmızı yapar.<br>
+Genellikle hata, uyarı, tehlike gibi durumlarda kullanılır.<br><br>
+
+<img width="1905" height="412" alt="image" src="https://github.com/user-attachments/assets/7d6fbb34-87b1-42cc-8d5e-acd1fb739772" />
+<br>
+Görünüm bu şekildedir.<br><br>
+
+<img width="1291" height="371" alt="image" src="https://github.com/user-attachments/assets/a9e677ef-b383-4054-9928-1bfa12e9d2c1" />
+<br>
+Ardından butonlara da birer class oluşturduk. Burada primary, danger ve secondary özelliklerini kullandık.<br><br>
+
+### btn Nedir?
+
+btn, Bootstrap’ta buton (button) oluşturmak için kullanılan ana sınıftır.<br>
+Bu sınıf olmadan diğer renk sınıfları çalışmaz.<br>
+Yani bir butonun Bootstrap görünümünde olması için her zaman btn sınıfı gerekir.<br><br>
+
+### btn-primary Nedir?
+
+btn-primary, butonun ana renk temasını (primary color) uygular.<br>
+Genelde mavi renkte görünür ve önemli işlemleri temsil eder (örneğin "Kaydet", "Gönder", "Onayla" gibi).<br><br>
+
+### btn-danger Nedir?
+
+btn-danger, kırmızı bir buton oluşturur.<br>
+Genellikle silme, iptal etme veya tehlikeli işlemler için kullanılır.<br><br>
+
+### btn-secondary Nedir?
+
+btn-secondary, gri tonlarında bir buton oluşturur.<br>
+Genellikle ikincil (secondary) veya önemsiz işlemler için kullanılır.<br>
+Örneğin “Vazgeç”, “Geri Dön”, “Kapat” gibi.<br><br>
+
+<img width="1907" height="283" alt="image" src="https://github.com/user-attachments/assets/bece4466-28c9-45ac-a01d-c165c9f5cbe6" />
+<br>
+Görünüm bu şekildedir.<br><br>
