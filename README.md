@@ -1276,7 +1276,7 @@ HTML ve CSS ile birlikte web’in üç temel teknolojisinden biridir:<br>
 
 ### JavaScript Ne İşe Yarar?
 
-JavaScript sayesinde bir web sayfasında şunları yapabilirsiniz:<br><br>
+JavaScript sayesinde bir web sayfasında şunları yapabilirsiniz:<br>
 
 ✅ Kullanıcı etkileşimleri oluşturmak (buton tıklama, form kontrolü vb.)<br>
 ✅ HTML ve CSS’i dinamik olarak değiştirmek<br>
