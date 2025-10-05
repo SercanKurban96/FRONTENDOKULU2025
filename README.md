@@ -1200,4 +1200,44 @@ Bootstrap, HTML5’in yerleşik doğrulama özelliklerini (örneğin required, t
 
 <img width="1456" height="596" alt="image" src="https://github.com/user-attachments/assets/583b65e7-2022-432c-9e05-be2dd49a54d7" />
 <br>
-Bootstrap sitesinden Validation menüsüne geldiğimizde çıkan ilk örneği deneyebilirsiniz.<br><br>
+Bootstrap sitesinden Validation menüsüne geldiğimizde çıkan ilk örneği deneyebilirsiniz, ancak kodların doğru çalışabilmesi için HTML sayfasının hemen altında JavaScript kodları bulunmaktadır. JavaScript kodlarını body etiketinin içerisine eklemelisiniz.<br><br>
+
+## BOOTSTRAP ACCORDION
+
+Bootstrap’ta Accordion (Akordeon), sayfadaki içeriği katlanabilir (açılır-kapanır) bölümler hâlinde düzenlemeye yarayan bir bileşendir.<br>
+Kullanıcı bir başlığa tıkladığında o bölüm açılır, diğer bölümler kapanır — yani alan tasarrufu sağlar ve içeriği düzenli gösterir.<br>
+Accordion, genellikle SSS (Sık Sorulan Sorular), bilgi panelleri, adım adım rehberler gibi yerlerde kullanılır. Kullanıcı bir başlığa tıklayınca, altındaki içerik slide animasyonu ile açılır veya kapanır.<br><br>
+
+<img width="1403" height="485" alt="image" src="https://github.com/user-attachments/assets/5eb053f1-b226-4f1c-a76b-e9422679c780" />
+<br>
+Components bölümüne geldiğinizde buradan Accordion örneklerini inceleyebilirsiniz.<br><br>
+
+## BOOTSTRAP NAVBAR
+
+Bootstrap’ta Navbar (Navigation Bar), yani Gezinme Çubuğu, bir web sitesinin üst kısmında yer alan, kullanıcıyı farklı sayfalara veya bölümlere yönlendiren menü alanıdır.<br>
+Genellikle bir logo, bağlantılar (linkler), arama çubuğu ve bazen butonlar (örneğin “Giriş Yap”) içerir.<br><br>
+
+### Navbar Nedir Kısaca?
+Navbar, web sitenin “menü çubuğu”dur.<br>
+Bootstrap ile duyarlı (responsive) hale gelir: yani ekran küçüldüğünde otomatik olarak hamburger menüye dönüşür.<br><br>
+
+<img width="1427" height="583" alt="image" src="https://github.com/user-attachments/assets/315c6d43-5322-4249-8f22-00926acca555" />
+<br>
+Components bölümünde yer alan Navbar'a geldiğinizde buradaki örnekleri inceleyebilirsiniz.<br><br>
+
+## BOOTSTRAP CAROUSEL
+
+Bootstrap’ta Carousel (Slayt Gösterisi), web sayfasında birden fazla görsel veya içeriği otomatik veya manuel olarak kaydırarak gösteren bir bileşendir.<br>
+Kısaca, bir web sitesindeki resim slaytı ya da banner geçişi oluşturmak için kullanılır.<br><br>
+
+### Carousel Nedir Kısaca?
+
+Carousel, “slider” (slayt gösterisi) anlamına gelir.<br>
+Birden fazla görsel veya yazıyı, kayarak geçiş yapan bir alan içinde sunar.<br>
+Bootstrap’ta hazır olarak gelir ve JavaScript ile otomatik geçiş (autoplay), ok tuşları, geçiş efektleri ve göstergeler (dots) içerir.<br><br>
+
+<img width="1415" height="605" alt="image" src="https://github.com/user-attachments/assets/67a0cc12-3461-445d-a503-6636920adcf3" />
+<br>
+Components bölümünde yer alan Carousel'e geldiğinizde buradaki örnekleri inceleyebilirsiniz.<br><br>
+
+<hr>
