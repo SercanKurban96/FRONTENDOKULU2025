@@ -1246,7 +1246,7 @@ Components bölümünde yer alan Carousel'e geldiğinizde buradaki örnekleri in
 ## 📆 Tarih: 5 Ekim 2025
 
 #### İçerikler:<br>
-🎈 JavaScript nedir?
+🎈 JavaScript nedir?<br>
 🎈 JS Tekli Çoklu Yorum Satırları<br>
 🎈 JS Yazı Yazdırma<br>
 🎈 Değişkenler<br>
