@@ -825,3 +825,356 @@ grid-area.css tam hali...<br><br>
 grid-area.html sayfası...<br><br>
 
 <hr>
+
+# 🖥️ Front-Ent Okulu 2025 - 2. HAFTA: Responsive Design, Bootstrap & Tailwind
+## 📆 Tarih: 4 Ekim 2025
+
+#### İçerikler:<br>
+🎈 Bootstrap nedir?<br>
+🎈 Bootstrap'in temel özellikleri nelerdir?<br>
+🎈 Bootstrap nasıl kullanılır?<br>
+🎈 Bootstrap Layout Containers, Grid, Gutter, Header, Images<br>
+🎈 Bootstrap Tables<br>
+🎈 Bootstrap Forms, Sizing, Input Group, Floating, Validation<br>
+🎈 Bootstrap Components, Accordion, Navbar, Carousel<br><br>
+
+Bootstrap Linki: https://getbootstrap.com/ <br><br>
+
+## Bootstrap Nedir?
+Bootstrap, web siteleri ve web uygulamaları tasarlamak için kullanılan, HTML, CSS ve JavaScript tabanlı açık kaynaklı (free & open source) bir frontend framework’tür.<br>
+Yani kısaca:<br>
+👉 Web sayfalarının daha hızlı, daha düzenli ve mobil uyumlu (responsive) şekilde tasarlanmasını sağlar.<br><br>
+
+### 🧩 Bootstrap’in Temel Özellikleri
+
+1️⃣ <b>Responsive (Mobil Uyumlu) Tasarım:</b><br>
+💠 Bootstrap, “grid sistemi (ızgara sistemi)” sayesinde sayfaların ekran boyutuna göre otomatik olarak uyum sağlamasını kolaylaştırır.<br>
+💠 Telefon, tablet, bilgisayar fark etmeksizin düzen bozulmadan görüntü sağlanır.<br><br>
+
+2️⃣ <b>Hazır CSS Bileşenleri:</b><br>
+Butonlar (.btn), kartlar (.card), menüler (.navbar), formlar (.form-control), tablo stilleri (.table) gibi birçok hazır tasarım sınıfı içerir.<br>
+Böylece sıfırdan CSS yazmana gerek kalmaz.<br><br>
+
+3️⃣ <b>Hazır JavaScript Bileşenleri:</b><br>
+Modal (açılır pencere), dropdown menü, carousel (slider), tooltip gibi dinamik öğeleri kolayca ekleyebilirsiniz.<br><br>
+
+4️⃣ <b>Kolay Özelleştirme:</b><br>
+Varsayılan renkleri, boyutları ve stilleri değiştirerek kendi temana uygun hale getirebilirsiniz.<br><br>
+
+### ⚙️ Bootstrap Nasıl Kullanılır?
+
+<img width="1880" height="882" alt="image" src="https://github.com/user-attachments/assets/7c317bda-907b-4947-b5d2-16dc1d81a838" />
+<br>
+Siteye girdiğimizde sol üstte menüler yer almaktadır. Buradan Docs menüsüne gidiyoruz.<br><br>
+
+<img width="1447" height="767" alt="image" src="https://github.com/user-attachments/assets/f94fa35a-0778-4e2f-8796-745c187b997f" />
+<br>
+Ardından sayfayı az aşağıya indirdiğimiz zaman 2. sırada bulunan Include Bootstrap’s CSS and JS metninde yer alan kodları göreceksiniz. Buradaki kodları kopyalıyoruz.<br><br>
+
+<img width="371" height="192" alt="image" src="https://github.com/user-attachments/assets/d09c5cbb-4ad6-4b86-a95a-89a513eaf7b2" />
+<br>
+Ders003 isminde bir klasör oluşturup ismini 01-Layout.html olarak belirledik. Burada istediğiniz ismi belirleyebilirsiniz.<br><br>
+
+<img width="1302" height="565" alt="image" src="https://github.com/user-attachments/assets/196454a4-03ec-4aab-8338-0676530d298f" />
+<br>
+Bootstrap’ı kullanmak için sayfanın <head> kısmına şu bağlantıları eklersiniz. Ardından body kısmına gelerek en alt kısma script bağlantısını eklersiniz.<br><br>
+
+<img width="1907" height="417" alt="image" src="https://github.com/user-attachments/assets/94693c43-a2e4-4be3-ad34-9e36ddd156cb" />
+<br>
+Çalıştırdığımız zaman yazı tipinin değiştiğini fark edeceksiniz.<br><br>
+
+<img width="427" height="615" alt="image" src="https://github.com/user-attachments/assets/b75deecc-ce5b-4622-b581-c40485a8e1a1" />
+<br>
+Burada Bootstrap'e ait tüm özellikleri inceleyebilirsiniz.<br><br>
+
+## BOOTSTRAP LAYOUT CONTAINERS
+
+<img width="1317" height="400" alt="image" src="https://github.com/user-attachments/assets/d63fd41e-b393-496b-bd24-8954e1e891cf" />
+<br>
+Burada div etiketi içerisine container adlı bir class'a ek olarak md ve bunun yanına bg-info ekledik.<br><br>
+
+### container-md Nedir?
+
+Bootstrap’ta container sınıfı, sayfadaki içerikleri belli bir genişlikte ortalamak ve responsive (ekran boyutuna duyarlı) şekilde hizalamak için kullanılır.<br><br>
+container sınıfının farklı versiyonları vardır:<br><br>
+💠 container → Her ekran boyutuna göre otomatik ayarlanır.<br>
+💠 container-fluid → Her zaman tam ekran genişliğindedir.<br>
+💠 container-sm, container-md, container-lg, container-xl, container-xxl → Belirli breakpoint (ekran boyutu) değerlerine göre genişliği değiştirir.<br><br>
+
+👉 container-md:<br>
+Bu sınıf, ekran boyutu md (medium) ve daha büyük olduğunda sabit genişlikte olur, daha küçük ekranlarda (sm, xs) tam genişlikte (fluid) hale gelir.<br><br>
+
+<b>Yani:</b><br>
+💠 Küçük ekranlarda (örneğin telefon): Tam ekran genişliği kaplar.<br>
+💠 Orta ve büyük ekranlarda (örneğin tablet, bilgisayar): Ortalanmış sabit genişlikte olur.<br><br>
+
+### bg-info Nedir?
+
+bg-info, Bootstrap’in renk sınıflarından (background utilities) biridir.<br>
+Bu sınıf, öğeye açık mavi tonlarında bir arka plan rengi verir.<br>
+(info temalı renk genellikle bilgilendirme mesajlarında kullanılır.)<br><br>
+
+<img width="1282" height="268" alt="image" src="https://github.com/user-attachments/assets/34edd828-7870-45ca-8b4d-f41276355405" />
+<br>
+Daha sonra burada h1 etiketi içerisine bir class oluşturarak isimlerini text-center ve text-danger olarak belirledik.<br><br>
+
+### text-center Nedir?
+
+text-center, Bootstrap’in metin hizalama (text alignment) sınıfıdır.<br>
+Bu sınıf, bir öğe içindeki yazıyı yatay olarak ortalar.<br><br>
+
+### text-danger Nedir?
+
+text-danger, Bootstrap’in renk sınıflarından (text color utilities) biridir.<br>
+Bu sınıf, metnin rengini kırmızı yapar.<br>
+Genellikle hata, uyarı, tehlike gibi durumlarda kullanılır.<br><br>
+
+<img width="1905" height="412" alt="image" src="https://github.com/user-attachments/assets/7d6fbb34-87b1-42cc-8d5e-acd1fb739772" />
+<br>
+Görünüm bu şekildedir.<br><br>
+
+<img width="1291" height="371" alt="image" src="https://github.com/user-attachments/assets/a9e677ef-b383-4054-9928-1bfa12e9d2c1" />
+<br>
+Ardından butonlara da birer class oluşturduk. Burada primary, danger ve secondary özelliklerini kullandık.<br><br>
+
+### btn Nedir?
+
+btn, Bootstrap’ta buton (button) oluşturmak için kullanılan ana sınıftır.<br>
+Bu sınıf olmadan diğer renk sınıfları çalışmaz.<br>
+Yani bir butonun Bootstrap görünümünde olması için her zaman btn sınıfı gerekir.<br><br>
+
+### btn-primary Nedir?
+
+btn-primary, butonun ana renk temasını (primary color) uygular.<br>
+Genelde mavi renkte görünür ve önemli işlemleri temsil eder (örneğin "Kaydet", "Gönder", "Onayla" gibi).<br><br>
+
+### btn-danger Nedir?
+
+btn-danger, kırmızı bir buton oluşturur.<br>
+Genellikle silme, iptal etme veya tehlikeli işlemler için kullanılır.<br><br>
+
+### btn-secondary Nedir?
+
+btn-secondary, gri tonlarında bir buton oluşturur.<br>
+Genellikle ikincil (secondary) veya önemsiz işlemler için kullanılır.<br>
+Örneğin “Vazgeç”, “Geri Dön”, “Kapat” gibi.<br><br>
+
+<img width="1907" height="283" alt="image" src="https://github.com/user-attachments/assets/bece4466-28c9-45ac-a01d-c165c9f5cbe6" />
+<br>
+Görünüm bu şekildedir.<br><br>
+
+## BOOTSTRAP GRID
+
+Bunlar Bootstrap’ın grid (ızgara) sistemine ait sınıflardır ve sayfa düzenini (layout) oluşturmak için kullanılır.<br><br>
+
+<img width="877" height="200" alt="image" src="https://github.com/user-attachments/assets/afa6737c-c1cb-4bbf-87e3-adca2a45c750" />
+<br>
+
+### col-12 Nedir?
+
+col-12, bir kolon (sütun) genişliğini belirtir.<br>
+Bootstrap, sayfayı 12 eşit sütuna böler.<br>
+col-12 demek → “Bu eleman tüm satırı (12 sütunu) kaplasın.” anlamına gelir.<br><br>
+
+### col-lg-2 Nedir?
+
+col-lg-2, “large (büyük)” ekranlarda 12 sütunun 2’sini kapla anlamına gelir.<br>
+Yani büyük ekranlarda genişliği küçülür (örneğin 2/12 = %16.6).<br><br>
+
+➡️ <b>Bu ne anlama gelir:</b><br><br>
+
+Küçük ekranlarda (col-12) → tam genişlik (tüm satırı kaplar)<br>
+Büyük ekranlarda (col-lg-2) → satırın sadece 2/12’sini (yaklaşık %16) kaplar<br>
+Yani responsive (duyarlı) bir düzen oluşur.<br><br>
+
+### order-1 Nedir?
+
+order-* sınıfları, sütunların sırasını (görünme sırasını) belirler.<br>
+Varsayılan olarak sütunlar HTML sırasına göre görünür ama order ile bu sıralama değiştirilebilir.<br><br>
+
+order-1 → sütun 1. sırada görünür<br>
+order-2 → sütun 2. sırada görünür<br>
+vb.<br><br>
+
+### order-lg-3 Nedir?
+
+order-lg-3 sınıfı, sadece büyük (large) ekranlarda sıralamayı değiştirir.<br>
+Yani küçük ekranlarda normal sırası korunur,<br>
+ama büyük ekranlarda 3. sıraya geçer.<br><br>
+
+<img width="1901" height="268" alt="image" src="https://github.com/user-attachments/assets/b1ea35bc-2dbb-4a69-b01d-57adc634d627" />
+<br>
+Görünüm bu şekildedir.<br><br>
+
+## BOOTSTRAP GUTTER
+
+Bootstrap’ta gutter, grid (ızgara) sisteminde sütunlar (columns) arasındaki boşlukları ifade eder.<br>
+Yani sayfa düzeninde, örneğin iki sütun yan yana geldiğinde aralarındaki yatay boşluğa “gutter” denir.<br><br>
+
+### Gutter ne işe yarar?
+
+Gutter sayesinde sayfanızdaki içerikler birbirine yapışmadan, aralarında estetik bir mesafe bırakılarak görüntülenir.<br>
+Bu, hem okunabilirliği artırır hem de tasarımı düzenli hale getirir.<br><br>
+
+### Varsayılan Gutter Değerleri
+
+Bootstrap 5’te gutter’lar varsayılan olarak:<br><br>
+
+Yatayda (x yönü): 1.5rem<br>
+Dikeyde (y yönü): 0<br>
+olarak ayarlanmıştır.<br><br>
+
+### Gutter Sınıfları (Bootstrap 5)
+
+Bootstrap, gutter boşluklarını değiştirmek için hazır sınıflar sağlar:<br><br>
+
+g-0 → Tüm gutter boşluklarını kaldırır.<br>
+gx-* → Yalnızca yatay (x) gutter’ı ayarlar.<br>
+gy-* → Yalnızca dikey (y) gutter’ı ayarlar.<br>
+g-* → Hem yatay hem dikey gutter’ı aynı anda ayarlar.<br><br>
+'*' yerine 0 ile 5 arasında bir sayı yazılır.<br>
+(0 = hiç boşluk yok, 5 = en fazla boşluk)<br><br>
+
+<img width="773" height="402" alt="image" src="https://github.com/user-attachments/assets/92189752-0f67-4f4b-9746-f0e444892c64" />
+<br>
+Örnek Gutter sayfa tasarımı...<br><br>
+
+<img width="1905" height="220" alt="image" src="https://github.com/user-attachments/assets/e8ed2394-fad8-4f15-8842-8fcd3baa0f01" />
+<br>
+Görünüm bu şekildedir.<br><br>
+
+## BOOTSTRAP HEADER
+
+<img width="672" height="582" alt="image" src="https://github.com/user-attachments/assets/c1242929-9448-422b-906c-1c8f64cd7107" />
+<br>
+Burada 3 farklı başlıkların özelliklerini ele aldık. Burada display class'ı Bootstrap'e ait olan başlıkları ekledik.<br><br>
+
+<img width="1166" height="872" alt="image" src="https://github.com/user-attachments/assets/58e48f01-d968-4a5b-aa10-5d3792a9cd40" />
+<br>
+Görünüm bu şekildedir.<br><br>
+
+## BOOTSTRAP IMAGES
+
+<img width="991" height="280" alt="image" src="https://github.com/user-attachments/assets/c92eb8b7-f937-4cce-b02c-6c4eee0e2624" />
+<br>
+
+### container mt-5 Nedir?
+
+CSS’teki margin-top özelliğini temsil eder.<br>
+Yani elemanın üst kısmına boşluk (marjin) ekler.<br>
+5 sayısı, Bootstrap’in boşluk ölçeğine göre büyük bir boşluktur.<br><br>
+
+### col-9 mx-auto Nedir?
+col-9<br><br>
+
+Bootstrap grid sisteminde bir satır (row) içinde sütun (column) genişliğini belirtir.<br>
+Grid sistemi 12 sütuna dayanır.<br>
+→ col-9 demek “12 sütunun 9’unu kapla” anlamına gelir.<br><br>
+
+mx-auto<br><br>
+CSS’te margin-left: auto; margin-right: auto; anlamına gelir.<br>
+Yani elemanı yatayda ortalar.<br><br>
+
+🧩 “col-9 mx-auto” → 9 sütun genişliğinde, yatayda ortalanmış bir alan oluşturur.<br><br>
+
+### img-fluid Nedir?
+
+Görsellerin ekran boyutuna göre otomatik küçülüp büyümesini (responsive olmasını) sağlar.<br>
+“img-fluid” = Görsel ekran boyutuna göre kendini ayarlar, taşma yapmaz.<br><br>
+
+<img width="1836" height="487" alt="image" src="https://github.com/user-attachments/assets/6aaa5155-328d-4e3d-a998-bad814d80ecf" />
+<br>
+Sayfayı küçülttüğünüzde resmin boyutunu otomatik olarak oluşturacaktır.<br><br>
+
+## BOOSTRAP TABLE
+
+<img width="387" height="101" alt="image" src="https://github.com/user-attachments/assets/b21a18d4-bf79-43f9-8f3e-656ef48acfd9" />
+<br>
+Yeni bir html dosyası oluşturuyoruz ve ismini 02-Table.html olarak belirliyoruz.<br><br>
+
+<img width="1486" height="561" alt="image" src="https://github.com/user-attachments/assets/1ec18746-ae07-4c1a-8566-1ffe8240a7ea" />
+<br>
+Tables için sol tarafta yer alan Content kısmından örneklere bakabilirsiniz.<br><br>
+
+<img width="1012" height="498" alt="image" src="https://github.com/user-attachments/assets/9269ed9e-38af-41a2-b24a-da1a20ce11f2" />
+<br>
+Örnek olarak ilk sıradaki kodları alalım. İşaretlediğim alana tıklarsanız kodları kopyalayacaktır.<br><br>
+
+❗<b>BOOTSTRAP KODLARINI ALMAYI UNUTMAYIN!!!</b><br><br>
+
+<img width="1367" height="911" alt="image" src="https://github.com/user-attachments/assets/70d5b9f5-3c28-4181-a0dd-9ec2f7a58dde" />
+<br>
+Kopyaladığımız tabloyu sayfamıza aktaralım.<br><br>
+
+<img width="1917" height="150" alt="image" src="https://github.com/user-attachments/assets/10162cbb-c1c1-438c-97f5-a0c23524c89d" />
+<br>
+Çalıştırdığımız zaman sayfanın görünümü bu şekilde olacaktır. Birkaç Bootstrap özelliği ekleyelim.<br><br>
+
+<img width="1153" height="347" alt="image" src="https://github.com/user-attachments/assets/0c8dd712-9c4c-49a6-a1fe-e6b4e4e97bda" />
+<br>
+İlk olarak table class'a gelerek table-dark özelliğini ekleyelim.<br><br>
+
+<img width="1913" height="147" alt="image" src="https://github.com/user-attachments/assets/5ec68e9c-0d66-4d34-84e5-fa615da4aee9" />
+<br>
+Çalıştırdığımız zaman tablonun görünümü siyah oldu.<br><br>
+
+<img width="1020" height="230" alt="image" src="https://github.com/user-attachments/assets/c9738ddd-8e9d-49c7-9378-4618bc5a9683" />
+<br>
+Bootstrap’ta table-striped, bir tabloya satır satır renkli (şeritli) bir arka plan eklemek için kullanılan bir sınıftır.<br>
+Yani tablo satırlarını daha okunabilir ve düzenli hale getirmek için her çift satıra farklı bir arka plan rengi verir.<br>
+Bu, özellikle uzun tabloların satırlarını kolayca ayırt etmeyi sağlar.<br><br>
+
+<img width="1913" height="148" alt="image" src="https://github.com/user-attachments/assets/8cbb56a5-1abd-48bd-8ad5-3e80b7aad717" />
+<br>
+Görünümü bu şekildedir.<br><br>
+
+<img width="766" height="162" alt="image" src="https://github.com/user-attachments/assets/da4550b6-baf8-448e-85de-90032e93d4f2" />
+<br>
+Bootstrap’ta table-hover, bir tablodaki satırların fareyle üzerine gelindiğinde (hover) arka plan renginin değişmesini sağlar.<br>
+Bu özellik, kullanıcının hangi satırda olduğunu kolay fark etmesini sağlar — özellikle uzun tablolarda okunabilirliği artırmak için çok faydalıdır.<br><br>
+
+<img width="902" height="117" alt="image" src="https://github.com/user-attachments/assets/966546ab-3808-492c-ab2c-81b0fc6dce51" />
+<br>
+Bootstrap’ta table-bordered, bir tablodaki tüm hücrelere (hem satır hem sütunlara) kenarlık (çerçeve) ekleyen bir sınıftır.<br>
+Yani tabloya görsel olarak kutucuk görünümü kazandırır ve satır–sütun ayrımlarını netleştirir.<br><br>
+
+<img width="1011" height="141" alt="image" src="https://github.com/user-attachments/assets/5c7af960-f59a-46bc-aaa2-5b8ffc24c0df" />
+<br>
+Bootstrap’ta border-danger, bir elementin kenarlık (border) rengini kırmızı yapmaya yarayan bir sınıftır.<br>
+“Danger” ifadesi Bootstrap’in renk temalarından biridir (örneğin danger, primary, success, warning, info gibi).<br>
+Bu tema genellikle uyarı, hata veya dikkat çekici durumlarda kullanılır.<br><br>
+
+<img width="1912" height="141" alt="image" src="https://github.com/user-attachments/assets/3fd58a40-c49c-46c2-8ebe-5d8150398a06" />
+<br>
+Görünümü bu şekildedir.<br><br>
+
+## BOOTSTRAP FORMS
+
+<img width="381" height="130" alt="image" src="https://github.com/user-attachments/assets/000837a7-7bdd-4b78-a482-aa5fd135ae68" />
+<br>
+03-Forms.html isminde bir dosya oluşturalım.<br><br>
+
+<img width="428" height="680" alt="image" src="https://github.com/user-attachments/assets/4663a6d5-03f3-41ab-b34c-e1c5bb41cc0d" />
+<br>
+Forms örnekleri için sol tarafta bulunan örneklere tıklayarak inceleyebilirsiniz.<br><br>
+
+Bootstrap’ta Forms (Formlar), kullanıcıdan veri almak için kullanılan görsel olarak düzenlenmiş form bileşenleridir.<br>
+Bootstrap, HTML formlarını daha şık, hizalı, duyarlı (responsive) ve kullanıcı dostu hale getiren hazır stiller ve sınıflar sunar.<br><br>
+
+<img width="1017" height="538" alt="image" src="https://github.com/user-attachments/assets/4c993f32-9404-4910-8b6d-830d6c105043" />
+<br>
+Buradan ilk örneği alıp inceleyelim.<br><br>
+
+<img width="962" height="677" alt="image" src="https://github.com/user-attachments/assets/f21a57a4-8a9c-4a89-a32f-0757d58d3942" />
+<br>
+İlk örneğimizi sayfamıza aktaralım. Burada küçük bir değişiklik yapacağız.<br><br>
+
+<img width="922" height="666" alt="image" src="https://github.com/user-attachments/assets/741b4d1c-3a1c-4fef-8ed1-65974f338a8d" />
+<br>
+Bir önceki görsele baktığınızda id ve label for değerlerin başında example yazmaktaydı. Gerçek projelerde isimlendirme yaparken dikkat edilmesi gereken kural doğru adlandırmanın yapılmasıdır. Burada example ismini adlandırmak bizim için bir dezavantaj olacaktır. Bu nedenle isimlerin başındaki example yazılarını kaldırdık.<br>
+⚠️ label for ile id değerleri <b>aynı olmak zorundadır!!!</b><br><br>
+
+<img width="1908" height="345" alt="image" src="https://github.com/user-attachments/assets/cf475380-2ac8-4c30-9dad-dcccf7002889" />
+<br>
+Görünümü bu şekildedir. Bootstrap özelliği sayesinde metin kutularının boyutları daha güzel gözükmesini sağladı.<br><br>
+
