@@ -1178,3 +1178,26 @@ Bir önceki görsele baktığınızda id ve label for değerlerin başında exam
 <br>
 Görünümü bu şekildedir. Bootstrap özelliği sayesinde metin kutularının boyutları daha güzel gözükmesini sağladı.<br><br>
 
+## BOOTSTRAP FORM FLOATING
+
+Bootstrap’ta Form Floating (tam adıyla Floating Labels) özelliği, form elemanlarının (örneğin input veya textarea) üzerindeki etiketin (label) kayan bir şekilde görünmesini sağlar.<br>
+Yani kullanıcı giriş alanına tıkladığında veya bir değer yazdığında, etiket otomatik olarak yukarıya doğru hareket eder ve küçük bir başlık gibi görünür.<br>
+Bu, formun hem modern hem de sade bir tasarıma sahip olmasını sağlar.<br><br>
+
+<img width="1395" height="562" alt="image" src="https://github.com/user-attachments/assets/c1fd5657-abe3-442a-b5a6-a93a02a72e8f" />
+<br>
+Bootstrap sitesinden Floating Labels menüsüne geldiğimizde çıkan ilk örneğimizi alalım.<br><br>
+
+<img width="1907" height="200" alt="image" src="https://github.com/user-attachments/assets/0842a93c-eb46-4746-9f72-ec39510fed34" />
+<br>
+Tasarım bu şekilde gözükecektir.<br><br>
+
+## BOOTSTRAP FORM VALIDATION
+
+Bootstrap’ta Form Validation (Form Doğrulama), bir formun kullanıcı tarafından doğru şekilde doldurulup doldurulmadığını kontrol etmek için kullanılan yapıdır.<br>
+Yani form gönderilmeden önce zorunlu alanlar, geçerli e-posta biçimi, minimum karakter sayısı gibi kuralları kontrol eder ve kullanıcıya uyarı mesajı gösterir.<br>
+Bootstrap, HTML5’in yerleşik doğrulama özelliklerini (örneğin required, type="email", pattern) kendi CSS sınıfları ve renkli geri bildirimleri ile birleştirir.<br><br>
+
+<img width="1456" height="596" alt="image" src="https://github.com/user-attachments/assets/583b65e7-2022-432c-9e05-be2dd49a54d7" />
+<br>
+Bootstrap sitesinden Validation menüsüne geldiğimizde çıkan ilk örneği deneyebilirsiniz.<br><br>
