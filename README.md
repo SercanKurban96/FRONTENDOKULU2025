@@ -1202,6 +1202,10 @@ Bootstrap, HTML5’in yerleşik doğrulama özelliklerini (örneğin required, t
 <br>
 Bootstrap sitesinden Validation menüsüne geldiğimizde çıkan ilk örneği deneyebilirsiniz, ancak kodların doğru çalışabilmesi için HTML sayfasının hemen altında JavaScript kodları bulunmaktadır. JavaScript kodlarını body etiketinin içerisine eklemelisiniz.<br><br>
 
+<img width="357" height="141" alt="image" src="https://github.com/user-attachments/assets/17aa1598-bcb2-4f12-8558-d53ed57ea7a7" />
+<br>
+04-Components.html dosyası oluşturalım.<br><br>
+
 ## BOOTSTRAP ACCORDION
 
 Bootstrap’ta Accordion (Akordeon), sayfadaki içeriği katlanabilir (açılır-kapanır) bölümler hâlinde düzenlemeye yarayan bir bileşendir.<br>
