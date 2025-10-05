@@ -1241,3 +1241,22 @@ Bootstrap’ta hazır olarak gelir ve JavaScript ile otomatik geçiş (autoplay)
 Components bölümünde yer alan Carousel'e geldiğinizde buradaki örnekleri inceleyebilirsiniz.<br><br>
 
 <hr>
+
+# 🖥️ Front-Ent Okulu 2025 - 2. HAFTA: Javascript Temelleri
+## 📆 Tarih: 5 Ekim 2025
+
+#### İçerikler:<br>
+🎈 JavaScript nedir?
+🎈 JS Tekli Çoklu Yorum Satırları<br>
+🎈 JS Yazı Yazdırma<br>
+🎈 Değişkenler<br>
+🎈 Veri Tipleri<br>
+🎈 Tip Dönüşümleri<br>
+🎈 Operatörler<br>
+🎈 Array Metotları<br>
+🎈 Object<br>
+🎈 Koşul İfadeleri<br>
+🎈 Döngüler<br>
+🎈 Fonksiyonlar<br>
+🎈 JavaScript Document Object Model<br>
+🎈 JavaScript Local & Session Storage<br><br>
