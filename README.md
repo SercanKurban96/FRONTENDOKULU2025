@@ -1264,3 +1264,27 @@ Components bölümünde yer alan Carousel'e geldiğinizde buradaki örnekleri in
 🎈 Fonksiyonlar<br>
 🎈 JavaScript Document Object Model<br>
 🎈 JavaScript Local & Session Storage<br><br>
+
+## JavaScript Nedir?
+
+🟨 JavaScript, web sitelerine etkileşim (dinamiklik) kazandıran bir programlama dilidir.<br>
+HTML ve CSS ile birlikte web’in üç temel teknolojisinden biridir:<br>
+
+* HTML → sayfanın yapısını oluşturur.
+* CSS → sayfanın görünümünü (renk, yazı tipi, düzen) belirler.
+* JavaScript (JS) → sayfayı hareketli, akıllı ve dinamik hale getirir.
+
+### JavaScript Ne İşe Yarar?
+
+JavaScript sayesinde bir web sayfasında şunları yapabilirsiniz:<br><br>
+
+✅ Kullanıcı etkileşimleri oluşturmak (buton tıklama, form kontrolü vb.)<br>
+✅ HTML ve CSS’i dinamik olarak değiştirmek<br>
+✅ Form verilerini kontrol etmek (örneğin boş mu, doğru formatta mı)<br>
+✅ Animasyonlar, geçiş efektleri, resim slaytları yapmak<br>
+✅ Sunucudan veri almak (örneğin fetch(), AJAX)<br>
+✅ Web oyunları, uygulamalar ve dinamik web siteleri geliştirmek<br><br>
+
+<img width="373" height="181" alt="image" src="https://github.com/user-attachments/assets/e24e4d4a-c042-40ec-b12e-b69df0b8b10f" />
+<br>
+Ders004 isminde yeni bir klasör oluşturalım.<br><br>
