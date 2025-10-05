@@ -184,16 +184,6 @@ console.log("Merhaba AcademyClub");
 // console.log(5 % 2); //Mod Alma
 // console.log(5 ** 2); //Üslü
 
-//Karşılaştırma Operatörleri (==, ===, !=, !==, >, <, >=, <=)
-// console.log(2 == "2") //Değer Karşılaştırması
-// console.log(2 === "2") //Hem Değer Hem De Tip Karşılaştırması
-// console.log(2 != "2") //Değer Karşılaştırması - Eşit Değil
-// console.log(2 !== "2") //Hem Değer Hem De Tip Karşılaştırması Eşit Değil
-// console.log(2 > "2") //Büyük
-// console.log(2 < "2") //Küçük
-// console.log(2 >= "2") //Büyük Eşit
-// console.log(2 <= "2") //Küçük Eşit
-
 //Math Fonksiyonu
 // let sonuc;
 // sonuc = Math.PI;
@@ -272,3 +262,194 @@ console.log("Merhaba AcademyClub");
 // console.log(numbers);
 // console.log(langs);
 // console.log(value);
+
+//********************Object********************
+// const student = {
+//     fullName: "Sercan Kurban",
+//     age: 29,
+//     address: {
+//         city: "İstanbul",
+//         country: "Türkiye",
+//     },
+//     langs: ["Python","Java","C++","JavaScript"],
+//     work: function(){
+//         console.log("Çalışıyor...");
+//     },
+// };
+// let value;
+// value = student;
+// value = student.fullName;
+// value = student["fullName"];
+// value = student.address.city;
+// value = student.langs[0];
+// student.work();
+
+// let date = new Date();
+// value = date;
+// value = date.getDate(); //Ayın kaçıncı günü
+// value = date.getDay(); //Haftanın kaçıncı günü
+// value = date.getFullYear(); //Yıl
+// value = date.getHours(); //Saat
+// value = date.getMinutes(); //Dakika
+// value = date.getSeconds(); //Saniye
+// value = date.getTime(); //1 Ocak 1970'ten itibaren geçen milisaniye
+// value = date.getMilliseconds(); //Milisaniye
+// value = `Tarih: ${date.getDate()}.${date.getMonth() + 1}.${date.getFullYear()}`; //Tarih Formatı Çıktısı
+// console.log(value);
+
+//Karşılaştırma Operatörleri (==, ===, !=, !==, >, <, >=, <=)
+// console.log(2 == "2") //Değer Karşılaştırması
+// console.log(2 === "2") //Hem Değer Hem De Tip Karşılaştırması
+// console.log(2 != "2") //Değer Karşılaştırması - Eşit Değil
+// console.log(2 !== "2") //Hem Değer Hem De Tip Karşılaştırması Eşit Değil
+// console.log(2 > "2") //Büyük
+// console.log(2 < "2") //Küçük
+// console.log(2 >= "2") //Büyük Eşit
+// console.log(2 <= "2") //Küçük Eşit
+
+//Mantıksal Operatörler (&&, ||, !)
+//&& AND Operatörü
+// console.log(true && true); //true
+// console.log(true && false); //false
+// console.log(false && true); //false
+// console.log(false && false); //false
+
+// || OR Operatörü
+// console.log(true && true); //true
+// console.log(true && false); //true
+// console.log(false && true); //true
+// console.log(false && false); //false
+
+// \! NOT Operatörü
+// console.log(!true); //false
+// console.log(!false); //true
+
+// let value;
+// value = 5 > 2 && 3 < 5; // true && true --> true
+// value = 5 > 2 && 3 > 5; // true && false --> false
+// value = 5 > 2 || 3 > 5; // true || false --> true
+// console.log(value);
+
+//********************Koşul İfadeleri********************
+//If Condition
+// let a = 30;
+// let b = 20;
+// if(a < b){
+//     console.log(`${a}, ${b}'den küçüktür`);
+// }
+// else if(a == b){
+//     console.log(`${a}, ${b}'ye eşittir`);
+// }
+// else{
+//     console.log(`${a}, ${b}'den küçük değildir`);
+// }
+
+//Switch Case
+// let islem = "topla";
+// switch(islem){
+//     case "topla":
+//         console.log("Toplama işlemi seçildi.");
+//         break;
+//         case "çıkar":
+//         console.log("Çıkarma işlemi seçildi.");
+//         break;
+//         case "çarp":
+//         console.log("Çarpma işlemi seçildi.");
+//         break;
+//         case "böl":
+//         console.log("Bölme işlemi seçildi.");
+//         break;
+//         default:
+//         console.log("Geçersiz işlem.");
+//         break;
+// }
+
+//********************Döngüler********************
+//For Loop
+// for(let i=1; i<=10; i++){
+//     console.log(i);
+// }
+
+// for(let i=1; i<=10; i++){
+//     if(i == 5){
+//         break; //Döngüyü kırar.
+//         continue; //O anki adımı atlar.
+//     }
+//     console.log(i);
+// }
+
+// const langs = ["Python","Java","C++","JavaScript"];
+// for(let i=0; i<langs.length; i++){
+//     console.log(langs[i]);
+// }
+
+//While Loop
+// let i = 1;
+// while(i <= 10){
+//     console.log(i);
+//     i++;
+// }
+
+//Do While Loop
+// let i = 1;
+// do {
+//   console.log(i);
+//   i++;
+// } while (i <= 10);
+
+//For in Loop
+// const langs = ["Python","Java","C++","JavaScript"];
+// for(let lang in langs){
+//     console.log(lang, langs[lang]);
+// }
+
+//For of Loop
+// const langs = ["Python","Java","C++","JavaScript"];
+// for(let lang in langs){
+//     console.log(lang);
+// }
+
+//Foreach Loop
+// const langs = ["Python","Java","C++","JavaScript"];
+// langs.forEach(function (lang, index){
+//     console.log(index, lang);
+// })
+
+//Map Metodu / Döngüsü
+// const numbers = [3, 5, 2, 10, 15, 7];
+// let square = numbers.map(function (num){
+//     return num * num;
+// });
+// console.log(square);
+
+//********************Fonksiyonlar********************
+// function merhaba(){
+//     console.log("Merhaba");
+// }
+// merhaba();
+
+// function merhaba(name) {
+//   console.log(`Merhaba ${name}`); //Template Literals
+// }
+// merhaba("Sercan");
+
+// function userInfo(name, age) {
+//   console.log(`İsim: ${name}
+// Yaş: ${age}`);
+// }
+// userInfo("Sercan", 29);
+
+// function userInfo(name = "İsim Belirtilmemiş", age = "Yaş Belirtilmemiş") {
+//   console.log(`İsim: ${name}
+// Yaş: ${age}`);
+// }
+// userInfo("Sercan");
+
+// function square(x){
+//     return x * x;
+// }
+// console.log(square(5) + 5);
+
+//Arrow Function
+// const square2 = (x) => x * x;
+// console.log(square2(5) + 5);
