@@ -1318,11 +1318,65 @@ JavaScript’te değişkenler (variables), verileri saklamak için kullanılır.
 Bir değişken, bir değeri (örneğin sayı, metin, nesne, dizi vb.) bellekte tutar ve bu değere bir isim verilir.<br><br>
 
 🧠 <b>1. Değişken Tanımlama Yöntemleri</b><br>
+
 JavaScript’te değişken tanımlamak için 3 anahtar kelime kullanılır:<br>
-* var: Eski yöntemdir (ES5 öncesi). Fonksiyon kapsamına sahiptir.<br>
-* let: Yeni yöntemdir (ES6). Blok kapsamına sahiptir.<br>
-* const: Sabit değerli değişkenler için kullanılır. Değeri sonradan değiştirilemez.<br><br>
+
+| Anahtar Kelime | Özellik                                                                    |
+| -------------- | -------------------------------------------------------------------------- |
+| `var`          | Eski yöntemdir (ES5 öncesi). Fonksiyon kapsamına sahiptir.                 |
+| `let`          | Yeni yöntemdir (ES6). Blok kapsamına sahiptir.                             |
+| `const`        | Sabit değerli değişkenler için kullanılır. Değeri sonradan değiştirilemez. |
+<br>
 
 <img width="643" height="242" alt="image" src="https://github.com/user-attachments/assets/6ad47eab-e533-4eba-b9a6-2673c9576a85" />
 <br>
-Örnek kullanımlar...<br><br>
+Örnek kullanımları bu şekilde yaptık. Çalıştırmak için index.html sayfasından çalıştıralım.<br><br>
+
+<img width="1902" height="487" alt="image" src="https://github.com/user-attachments/assets/55424671-7de6-4167-8e1f-aaa1773d32ef" />
+<br>
+Çalıştırdığımız zaman HTML'de yazdığımız metin gelmektedir. JavaScript'te yazdığımız kodları görmek için yapmamız gereken adımlar şunlardır:<br><br>
+
+<img width="1901" height="671" alt="image" src="https://github.com/user-attachments/assets/adecf974-ff7e-4389-8d7e-d20d68e1d314" />
+<br>
+Sayfanın herhangi bir alanına sağ tıklayıp "İncele" diyoruz.<br><br>
+
+<img width="1907" height="432" alt="image" src="https://github.com/user-attachments/assets/dc8bc6a2-70d2-4a82-8990-40eab21efd44" />
+<br>
+Burada HTML etiketlerini görmekteyiz. JS'te yazdığımız kodların çıktısını görmek için Elements yazan yerin hemen sağında üzerine geldiğimiz zaman Console yazan sembole tıklıyoruz.<br><br>
+
+<img width="1900" height="240" alt="image" src="https://github.com/user-attachments/assets/5ba129db-7ae5-456b-84ab-7eb036cbecd6" />
+<br>
+Kodların çıktısı bu şekilde karşımıza gelmiş oldu.<br><br>
+
+🧩 <b>2. Değişkenlerin Özellikleri</b><br>
+
+💠 Harf, rakam, alt çizgi (_) veya dolar işareti ($) ile başlayabilir.<br>
+💠 Rakamla başlayamaz.<br>
+💠 Büyük/küçük harf duyarlıdır. isim ve Isim farklı değişkenlerdir.<br>
+💠 JavaScript’te değişken adları rezerve kelimeler (örneğin let, class, return) olamaz.<br><br>
+
+💡 <b>3. Veri Türleri (Data Types)</b><br>
+
+Değişkenler farklı türlerde değerler saklayabilir:<br><br>
+
+| Tür         | Örnek                       | Açıklama                    |
+| ----------- | --------------------------- | --------------------------- |
+| `String`    | `"Merhaba"`                 | Metin (yazı) değeri         |
+| `Number`    | `42`, `3.14`                | Sayılar                     |
+| `Boolean`   | `true`, `false`             | Mantıksal değerler          |
+| `Array`     | `[1, 2, 3]`                 | Liste şeklinde değerler     |
+| `Object`    | `{ ad: "Sercan", yas: 28 }` | Anahtar-değer çiftleri      |
+| `undefined` | `let x;`                    | Değeri atanmamış değişken   |
+| `null`      | `let y = null;`             | Boş değer (bilinçli olarak) |
+<br>
+
+⚙️ <b>4. Değişken Değerini Değiştirme</b><br>
+
+<img width="698" height="297" alt="image" src="https://github.com/user-attachments/assets/d8ed187d-8a9b-4612-bb54-5034702250a1" />
+<br>
+Bu kez tüm değerleri değiştirelim.<br><br>
+
+<img width="682" height="225" alt="image" src="https://github.com/user-attachments/assets/d8b24c7f-e095-4605-9ac5-b2efa41dfa53" />
+<br>
+var ve let türündeki değişkenlerin değerleri değiştirilirken, const ile tanımlanmış bir değişkenin değeri değiştirilemez.<br><br>
+
