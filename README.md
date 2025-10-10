@@ -1426,3 +1426,15 @@ Tamsayı veya ondalıklı sayı olabilir.<br><br>
 <br><br>
 
 ✔️ Not: JavaScript’te int, float gibi ayrım yoktur. Hepsi number tipindedir.<br><br>
+
+
+🟡 <b>Boolean (Mantıksal)</b><br>
+
+Yalnızca true (doğru) veya false (yanlış) değerlerini alır.<br><br>
+
+<img width="417" height="180" alt="image" src="https://github.com/user-attachments/assets/59e01cd7-886c-4751-99e5-dc48cec7f78d" />
+<br>
+Örnek bir Boolean kullanımı...<br><br>
+
+<img width="662" height="212" alt="image" src="https://github.com/user-attachments/assets/0bca5374-2115-42c0-bbbd-38821a22f30c" />
+<br><br>
