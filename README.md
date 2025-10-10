@@ -1386,10 +1386,16 @@ Bir değişken metin, sayı, mantıksal değer veya nesne gibi farklı türlerde
 
 ### 🧠 <b>1. JavaScript Veri Tipleri Genel Bakış</b><br>
 JavaScript’te veri tipleri 2 ana kategoriye ayrılır:<br><br>
-🔹 İlkel (Primitive) Veri Tipleri<br>
+🔹 <b>İlkel (Primitive) Veri Tipleri</b><br>
 Basit değerleri temsil ederler, tek bir değer taşırlar.<br>
 * String
 * Number
 * Boolean
 * Undefined
 * Null
+
+🔹 <b>Referans (Reference) Veri Tipleri</b><br>
+Birden fazla değeri veya yapıyı tutarlar.<br>
+* Object
+* Array
+* Function
