@@ -1288,3 +1288,41 @@ JavaScript sayesinde bir web sayfasında şunları yapabilirsiniz:<br>
 <img width="373" height="181" alt="image" src="https://github.com/user-attachments/assets/e24e4d4a-c042-40ec-b12e-b69df0b8b10f" />
 <br>
 Ders004 isminde yeni bir klasör oluşturalım.<br><br>
+
+<img width="367" height="62" alt="image" src="https://github.com/user-attachments/assets/301ff310-ea34-4511-b803-019e347b383b" />
+<br>
+Önce bir index.html dosyası oluşturalım.<br><br>
+
+<img width="361" height="78" alt="image" src="https://github.com/user-attachments/assets/26266fc9-440b-4359-996f-c9bbdcea2d22" />
+<br>
+Bu kez bir tane JavaScript dosyası oluşturalım. JavaScript dosyası oluşturmak için js uzantısını kullanıyoruz.<br><br>
+
+<img width="822" height="415" alt="image" src="https://github.com/user-attachments/assets/547cdb84-e535-4fea-95b1-92836756df6c" />
+<br>
+JavaScript dosyasını çağırmak için oluşturduğumuz index.html dosyasına giderek body etiketlerinin arasına script etiketini yazıyoruz.<br><br>
+
+### JavaScript Tekli Yorum Satırı
+// ile gösterilir.<br><br>
+
+<img width="665" height="147" alt="image" src="https://github.com/user-attachments/assets/c1ce24b5-748f-4ec1-80bb-4750d079df98" />
+<br><br>
+
+### JavaScript Çoklu Yorum Satırı
+/* ile */ arasında yazılan satırlardır.<br><br>
+
+<img width="645" height="182" alt="image" src="https://github.com/user-attachments/assets/2f2c6f8d-d877-41cb-bd1c-15c0923baad9" />
+<br><br>
+
+### JavaScript Değişkenler
+JavaScript’te değişkenler (variables), verileri saklamak için kullanılır.<br>
+Bir değişken, bir değeri (örneğin sayı, metin, nesne, dizi vb.) bellekte tutar ve bu değere bir isim verilir.<br><br>
+
+🧠 <b>1. Değişken Tanımlama Yöntemleri</b><br>
+JavaScript’te değişken tanımlamak için 3 anahtar kelime kullanılır:<br>
+* var: Eski yöntemdir (ES5 öncesi). Fonksiyon kapsamına sahiptir.<br>
+* let: Yeni yöntemdir (ES6). Blok kapsamına sahiptir.<br>
+* const: Sabit değerli değişkenler için kullanılır. Değeri sonradan değiştirilemez.<br><br>
+
+<img width="643" height="242" alt="image" src="https://github.com/user-attachments/assets/6ad47eab-e533-4eba-b9a6-2673c9576a85" />
+<br>
+Örnek kullanımlar...<br><br>
