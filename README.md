@@ -1313,7 +1313,7 @@ JavaScript dosyasını çağırmak için oluşturduğumuz index.html dosyasına 
 <img width="645" height="182" alt="image" src="https://github.com/user-attachments/assets/2f2c6f8d-d877-41cb-bd1c-15c0923baad9" />
 <br><br>
 
-### JavaScript Değişkenler
+## JavaScript Değişkenler
 JavaScript’te değişkenler (variables), verileri saklamak için kullanılır.<br>
 Bir değişken, bir değeri (örneğin sayı, metin, nesne, dizi vb.) bellekte tutar ve bu değere bir isim verilir.<br><br>
 
@@ -1380,3 +1380,16 @@ Bu kez tüm değerleri değiştirelim.<br><br>
 <br>
 var ve let türündeki değişkenlerin değerleri değiştirilirken, const ile tanımlanmış bir değişkenin değeri değiştirilemez.<br><br>
 
+## JavaScript Veri Tipleri
+JavaScript’te veri tipleri (data types), değişkenlerde ne tür bir bilgi sakladığımızı belirtir.<br>
+Bir değişken metin, sayı, mantıksal değer veya nesne gibi farklı türlerde veri tutabilir.<br><br>
+
+### 🧠 <b>1. JavaScript Veri Tipleri Genel Bakış</b><br>
+JavaScript’te veri tipleri 2 ana kategoriye ayrılır:<br><br>
+🔹 İlkel (Primitive) Veri Tipleri<br>
+Basit değerleri temsil ederler, tek bir değer taşırlar.<br>
+* String
+* Number
+* Boolean
+* Undefined
+* Null
