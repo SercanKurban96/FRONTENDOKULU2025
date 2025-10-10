@@ -1384,9 +1384,9 @@ var ve let türündeki değişkenlerin değerleri değiştirilirken, const ile t
 JavaScript’te veri tipleri (data types), değişkenlerde ne tür bir bilgi sakladığımızı belirtir.<br>
 Bir değişken metin, sayı, mantıksal değer veya nesne gibi farklı türlerde veri tutabilir.<br><br>
 
-### 🧠 <b>1. JavaScript Veri Tipleri Genel Bakış</b><br>
-JavaScript’te veri tipleri 2 ana kategoriye ayrılır:<br><br>
-🔹 <b>İlkel (Primitive) Veri Tipleri</b><br>
+### 🧠 <b>JavaScript Veri Tipleri Genel Bakış</b><br>
+JavaScript’te veri tipleri 2 ana kategoriye ayrılır:<br>
+#### 🔹 <b>İlkel (Primitive) Veri Tipleri</b><br>
 Basit değerleri temsil ederler, tek bir değer taşırlar.<br>
 * String
 * Number
@@ -1394,8 +1394,35 @@ Basit değerleri temsil ederler, tek bir değer taşırlar.<br>
 * Undefined
 * Null
 
-🔹 <b>Referans (Reference) Veri Tipleri</b><br>
+#### 🔹 <b>Referans (Reference) Veri Tipleri</b><br>
 Birden fazla değeri veya yapıyı tutarlar.<br>
 * Object
 * Array
 * Function
+
+
+### 📘 1. İlkel (Primitive) Veri Tipleri
+🟢 <b>String (Metin)</b><br>
+
+Metinleri saklamak için kullanılır.<br>
+Tek tırnak ' ', çift tırnak " " veya backtick ` ` kullanılabilir.<br><br>
+
+<img width="686" height="160" alt="image" src="https://github.com/user-attachments/assets/2f7f8283-0d4b-4931-a10c-d397fe87f285" />
+<br>
+Örnek bir String kullanımı...<br><br>
+
+<img width="665" height="132" alt="image" src="https://github.com/user-attachments/assets/b73b7ca6-0f97-4dd0-bc14-9a91b2179cee" />
+<br><br>
+
+🔵 <b>Number (Sayı)</b><br>
+
+Tamsayı veya ondalıklı sayı olabilir.<br><br>
+
+<img width="350" height="112" alt="image" src="https://github.com/user-attachments/assets/e17cfa65-b87e-4392-acf4-2988d1cf7a0a" />
+<br>
+Örnek bir Number kullanımı...<br><br>
+
+<img width="662" height="133" alt="image" src="https://github.com/user-attachments/assets/237c373b-5a62-499a-abb3-888ee5ac4fe1" />
+<br><br>
+
+✔️ Not: JavaScript’te int, float gibi ayrım yoktur. Hepsi number tipindedir.<br><br>
