@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Sercan Kurban",
+        "department": "Yazılım",
+        "salary": 5000
+    },
+    {
+        "name": "Ahmet Karaca",
+        "department": "Bilişim",
+        "salary": 6000
+    },
+    {
+        "name": "Yusuf Kandemir",
+        "department": "Muhasebe",
+        "salary": 4000
+    },
+    {
+        "name": "Yeliz Asya",
+        "department": "IK",
+        "salary": 7000
+    }
+]
