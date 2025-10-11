@@ -1178,3 +1178,263 @@ Bir önceki görsele baktığınızda id ve label for değerlerin başında exam
 <br>
 Görünümü bu şekildedir. Bootstrap özelliği sayesinde metin kutularının boyutları daha güzel gözükmesini sağladı.<br><br>
 
+## BOOTSTRAP FORM FLOATING
+
+Bootstrap’ta Form Floating (tam adıyla Floating Labels) özelliği, form elemanlarının (örneğin input veya textarea) üzerindeki etiketin (label) kayan bir şekilde görünmesini sağlar.<br>
+Yani kullanıcı giriş alanına tıkladığında veya bir değer yazdığında, etiket otomatik olarak yukarıya doğru hareket eder ve küçük bir başlık gibi görünür.<br>
+Bu, formun hem modern hem de sade bir tasarıma sahip olmasını sağlar.<br><br>
+
+<img width="1395" height="562" alt="image" src="https://github.com/user-attachments/assets/c1fd5657-abe3-442a-b5a6-a93a02a72e8f" />
+<br>
+Bootstrap sitesinden Floating Labels menüsüne geldiğimizde çıkan ilk örneğimizi alalım.<br><br>
+
+<img width="1907" height="200" alt="image" src="https://github.com/user-attachments/assets/0842a93c-eb46-4746-9f72-ec39510fed34" />
+<br>
+Tasarım bu şekilde gözükecektir.<br><br>
+
+## BOOTSTRAP FORM VALIDATION
+
+Bootstrap’ta Form Validation (Form Doğrulama), bir formun kullanıcı tarafından doğru şekilde doldurulup doldurulmadığını kontrol etmek için kullanılan yapıdır.<br>
+Yani form gönderilmeden önce zorunlu alanlar, geçerli e-posta biçimi, minimum karakter sayısı gibi kuralları kontrol eder ve kullanıcıya uyarı mesajı gösterir.<br>
+Bootstrap, HTML5’in yerleşik doğrulama özelliklerini (örneğin required, type="email", pattern) kendi CSS sınıfları ve renkli geri bildirimleri ile birleştirir.<br><br>
+
+<img width="1456" height="596" alt="image" src="https://github.com/user-attachments/assets/583b65e7-2022-432c-9e05-be2dd49a54d7" />
+<br>
+Bootstrap sitesinden Validation menüsüne geldiğimizde çıkan ilk örneği deneyebilirsiniz, ancak kodların doğru çalışabilmesi için HTML sayfasının hemen altında JavaScript kodları bulunmaktadır. JavaScript kodlarını body etiketinin içerisine eklemelisiniz.<br><br>
+
+<img width="357" height="141" alt="image" src="https://github.com/user-attachments/assets/17aa1598-bcb2-4f12-8558-d53ed57ea7a7" />
+<br>
+04-Components.html dosyası oluşturalım.<br><br>
+
+## BOOTSTRAP ACCORDION
+
+Bootstrap’ta Accordion (Akordeon), sayfadaki içeriği katlanabilir (açılır-kapanır) bölümler hâlinde düzenlemeye yarayan bir bileşendir.<br>
+Kullanıcı bir başlığa tıkladığında o bölüm açılır, diğer bölümler kapanır — yani alan tasarrufu sağlar ve içeriği düzenli gösterir.<br>
+Accordion, genellikle SSS (Sık Sorulan Sorular), bilgi panelleri, adım adım rehberler gibi yerlerde kullanılır. Kullanıcı bir başlığa tıklayınca, altındaki içerik slide animasyonu ile açılır veya kapanır.<br><br>
+
+<img width="1403" height="485" alt="image" src="https://github.com/user-attachments/assets/5eb053f1-b226-4f1c-a76b-e9422679c780" />
+<br>
+Components bölümüne geldiğinizde buradan Accordion örneklerini inceleyebilirsiniz.<br><br>
+
+## BOOTSTRAP NAVBAR
+
+Bootstrap’ta Navbar (Navigation Bar), yani Gezinme Çubuğu, bir web sitesinin üst kısmında yer alan, kullanıcıyı farklı sayfalara veya bölümlere yönlendiren menü alanıdır.<br>
+Genellikle bir logo, bağlantılar (linkler), arama çubuğu ve bazen butonlar (örneğin “Giriş Yap”) içerir.<br><br>
+
+### Navbar Nedir Kısaca?
+Navbar, web sitenin “menü çubuğu”dur.<br>
+Bootstrap ile duyarlı (responsive) hale gelir: yani ekran küçüldüğünde otomatik olarak hamburger menüye dönüşür.<br><br>
+
+<img width="1427" height="583" alt="image" src="https://github.com/user-attachments/assets/315c6d43-5322-4249-8f22-00926acca555" />
+<br>
+Components bölümünde yer alan Navbar'a geldiğinizde buradaki örnekleri inceleyebilirsiniz.<br><br>
+
+## BOOTSTRAP CAROUSEL
+
+Bootstrap’ta Carousel (Slayt Gösterisi), web sayfasında birden fazla görsel veya içeriği otomatik veya manuel olarak kaydırarak gösteren bir bileşendir.<br>
+Kısaca, bir web sitesindeki resim slaytı ya da banner geçişi oluşturmak için kullanılır.<br><br>
+
+### Carousel Nedir Kısaca?
+
+Carousel, “slider” (slayt gösterisi) anlamına gelir.<br>
+Birden fazla görsel veya yazıyı, kayarak geçiş yapan bir alan içinde sunar.<br>
+Bootstrap’ta hazır olarak gelir ve JavaScript ile otomatik geçiş (autoplay), ok tuşları, geçiş efektleri ve göstergeler (dots) içerir.<br><br>
+
+<img width="1415" height="605" alt="image" src="https://github.com/user-attachments/assets/67a0cc12-3461-445d-a503-6636920adcf3" />
+<br>
+Components bölümünde yer alan Carousel'e geldiğinizde buradaki örnekleri inceleyebilirsiniz.<br><br>
+
+<hr>
+
+# 🖥️ Front-Ent Okulu 2025 - 2. HAFTA: Javascript Temelleri
+## 📆 Tarih: 5 Ekim 2025
+
+#### İçerikler:<br>
+🎈 JavaScript nedir?<br>
+🎈 JS Tekli Çoklu Yorum Satırları<br>
+🎈 JS Yazı Yazdırma<br>
+🎈 Değişkenler<br>
+🎈 Veri Tipleri<br>
+🎈 Tip Dönüşümleri<br>
+🎈 Operatörler<br>
+🎈 Array Metotları<br>
+🎈 Object<br>
+🎈 Koşul İfadeleri<br>
+🎈 Döngüler<br>
+🎈 Fonksiyonlar<br>
+🎈 JavaScript Document Object Model<br>
+🎈 JavaScript Local & Session Storage<br><br>
+
+## JavaScript Nedir?
+
+🟨 JavaScript, web sitelerine etkileşim (dinamiklik) kazandıran bir programlama dilidir.<br>
+HTML ve CSS ile birlikte web’in üç temel teknolojisinden biridir:<br>
+
+* HTML → sayfanın yapısını oluşturur.
+* CSS → sayfanın görünümünü (renk, yazı tipi, düzen) belirler.
+* JavaScript (JS) → sayfayı hareketli, akıllı ve dinamik hale getirir.
+
+### JavaScript Ne İşe Yarar?
+
+JavaScript sayesinde bir web sayfasında şunları yapabilirsiniz:<br>
+
+✅ Kullanıcı etkileşimleri oluşturmak (buton tıklama, form kontrolü vb.)<br>
+✅ HTML ve CSS’i dinamik olarak değiştirmek<br>
+✅ Form verilerini kontrol etmek (örneğin boş mu, doğru formatta mı)<br>
+✅ Animasyonlar, geçiş efektleri, resim slaytları yapmak<br>
+✅ Sunucudan veri almak (örneğin fetch(), AJAX)<br>
+✅ Web oyunları, uygulamalar ve dinamik web siteleri geliştirmek<br><br>
+
+<img width="373" height="181" alt="image" src="https://github.com/user-attachments/assets/e24e4d4a-c042-40ec-b12e-b69df0b8b10f" />
+<br>
+Ders004 isminde yeni bir klasör oluşturalım.<br><br>
+
+<img width="367" height="62" alt="image" src="https://github.com/user-attachments/assets/301ff310-ea34-4511-b803-019e347b383b" />
+<br>
+Önce bir index.html dosyası oluşturalım.<br><br>
+
+<img width="361" height="78" alt="image" src="https://github.com/user-attachments/assets/26266fc9-440b-4359-996f-c9bbdcea2d22" />
+<br>
+Bu kez bir tane JavaScript dosyası oluşturalım. JavaScript dosyası oluşturmak için js uzantısını kullanıyoruz.<br><br>
+
+<img width="822" height="415" alt="image" src="https://github.com/user-attachments/assets/547cdb84-e535-4fea-95b1-92836756df6c" />
+<br>
+JavaScript dosyasını çağırmak için oluşturduğumuz index.html dosyasına giderek body etiketlerinin arasına script etiketini yazıyoruz.<br><br>
+
+### JavaScript Tekli Yorum Satırı
+// ile gösterilir.<br><br>
+
+<img width="665" height="147" alt="image" src="https://github.com/user-attachments/assets/c1ce24b5-748f-4ec1-80bb-4750d079df98" />
+<br><br>
+
+### JavaScript Çoklu Yorum Satırı
+/* ile */ arasında yazılan satırlardır.<br><br>
+
+<img width="645" height="182" alt="image" src="https://github.com/user-attachments/assets/2f2c6f8d-d877-41cb-bd1c-15c0923baad9" />
+<br><br>
+
+## JavaScript Değişkenler
+JavaScript’te değişkenler (variables), verileri saklamak için kullanılır.<br>
+Bir değişken, bir değeri (örneğin sayı, metin, nesne, dizi vb.) bellekte tutar ve bu değere bir isim verilir.<br><br>
+
+🧠 <b>1. Değişken Tanımlama Yöntemleri</b><br>
+
+JavaScript’te değişken tanımlamak için 3 anahtar kelime kullanılır:<br>
+
+| Anahtar Kelime | Özellik                                                                    |
+| -------------- | -------------------------------------------------------------------------- |
+| `var`          | Eski yöntemdir (ES5 öncesi). Fonksiyon kapsamına sahiptir.                 |
+| `let`          | Yeni yöntemdir (ES6). Blok kapsamına sahiptir.                             |
+| `const`        | Sabit değerli değişkenler için kullanılır. Değeri sonradan değiştirilemez. |
+<br>
+
+<img width="643" height="242" alt="image" src="https://github.com/user-attachments/assets/6ad47eab-e533-4eba-b9a6-2673c9576a85" />
+<br>
+Örnek kullanımları bu şekilde yaptık. Çalıştırmak için index.html sayfasından çalıştıralım.<br><br>
+
+<img width="1902" height="487" alt="image" src="https://github.com/user-attachments/assets/55424671-7de6-4167-8e1f-aaa1773d32ef" />
+<br>
+Çalıştırdığımız zaman HTML'de yazdığımız metin gelmektedir. JavaScript'te yazdığımız kodları görmek için yapmamız gereken adımlar şunlardır:<br><br>
+
+<img width="1901" height="671" alt="image" src="https://github.com/user-attachments/assets/adecf974-ff7e-4389-8d7e-d20d68e1d314" />
+<br>
+Sayfanın herhangi bir alanına sağ tıklayıp "İncele" diyoruz.<br><br>
+
+<img width="1907" height="432" alt="image" src="https://github.com/user-attachments/assets/dc8bc6a2-70d2-4a82-8990-40eab21efd44" />
+<br>
+Burada HTML etiketlerini görmekteyiz. JS'te yazdığımız kodların çıktısını görmek için Elements yazan yerin hemen sağında üzerine geldiğimiz zaman Console yazan sembole tıklıyoruz.<br><br>
+
+<img width="1900" height="240" alt="image" src="https://github.com/user-attachments/assets/5ba129db-7ae5-456b-84ab-7eb036cbecd6" />
+<br>
+Kodların çıktısı bu şekilde karşımıza gelmiş oldu.<br><br>
+
+🧩 <b>2. Değişkenlerin Özellikleri</b><br>
+
+💠 Harf, rakam, alt çizgi (_) veya dolar işareti ($) ile başlayabilir.<br>
+💠 Rakamla başlayamaz.<br>
+💠 Büyük/küçük harf duyarlıdır. isim ve Isim farklı değişkenlerdir.<br>
+💠 JavaScript’te değişken adları rezerve kelimeler (örneğin let, class, return) olamaz.<br><br>
+
+💡 <b>3. Veri Türleri (Data Types)</b><br>
+
+Değişkenler farklı türlerde değerler saklayabilir:<br><br>
+
+| Tür         | Örnek                       | Açıklama                    |
+| ----------- | --------------------------- | --------------------------- |
+| `String`    | `"Merhaba"`                 | Metin (yazı) değeri         |
+| `Number`    | `42`, `3.14`                | Sayılar                     |
+| `Boolean`   | `true`, `false`             | Mantıksal değerler          |
+| `Array`     | `[1, 2, 3]`                 | Liste şeklinde değerler     |
+| `Object`    | `{ ad: "Sercan", yas: 28 }` | Anahtar-değer çiftleri      |
+| `undefined` | `let x;`                    | Değeri atanmamış değişken   |
+| `null`      | `let y = null;`             | Boş değer (bilinçli olarak) |
+<br>
+
+⚙️ <b>4. Değişken Değerini Değiştirme</b><br>
+
+<img width="698" height="297" alt="image" src="https://github.com/user-attachments/assets/d8ed187d-8a9b-4612-bb54-5034702250a1" />
+<br>
+Bu kez tüm değerleri değiştirelim.<br><br>
+
+<img width="682" height="225" alt="image" src="https://github.com/user-attachments/assets/d8b24c7f-e095-4605-9ac5-b2efa41dfa53" />
+<br>
+var ve let türündeki değişkenlerin değerleri değiştirilirken, const ile tanımlanmış bir değişkenin değeri değiştirilemez.<br><br>
+
+## JavaScript Veri Tipleri
+JavaScript’te veri tipleri (data types), değişkenlerde ne tür bir bilgi sakladığımızı belirtir.<br>
+Bir değişken metin, sayı, mantıksal değer veya nesne gibi farklı türlerde veri tutabilir.<br><br>
+
+### 🧠 <b>JavaScript Veri Tipleri Genel Bakış</b><br>
+JavaScript’te veri tipleri 2 ana kategoriye ayrılır:<br>
+#### 🔹 <b>İlkel (Primitive) Veri Tipleri</b><br>
+Basit değerleri temsil ederler, tek bir değer taşırlar.<br>
+* String
+* Number
+* Boolean
+* Undefined
+* Null
+
+#### 🔹 <b>Referans (Reference) Veri Tipleri</b><br>
+Birden fazla değeri veya yapıyı tutarlar.<br>
+* Object
+* Array
+* Function
+
+
+### 📘 1. İlkel (Primitive) Veri Tipleri
+🟢 <b>String (Metin)</b><br>
+
+Metinleri saklamak için kullanılır.<br>
+Tek tırnak ' ', çift tırnak " " veya backtick ` ` kullanılabilir.<br><br>
+
+<img width="686" height="160" alt="image" src="https://github.com/user-attachments/assets/2f7f8283-0d4b-4931-a10c-d397fe87f285" />
+<br>
+Örnek bir String kullanımı...<br><br>
+
+<img width="665" height="132" alt="image" src="https://github.com/user-attachments/assets/b73b7ca6-0f97-4dd0-bc14-9a91b2179cee" />
+<br><br>
+
+🔵 <b>Number (Sayı)</b><br>
+
+Tamsayı veya ondalıklı sayı olabilir.<br><br>
+
+<img width="350" height="112" alt="image" src="https://github.com/user-attachments/assets/e17cfa65-b87e-4392-acf4-2988d1cf7a0a" />
+<br>
+Örnek bir Number kullanımı...<br><br>
+
+<img width="662" height="133" alt="image" src="https://github.com/user-attachments/assets/237c373b-5a62-499a-abb3-888ee5ac4fe1" />
+<br><br>
+
+✔️ Not: JavaScript’te int, float gibi ayrım yoktur. Hepsi number tipindedir.<br><br>
+
+
+🟡 <b>Boolean (Mantıksal)</b><br>
+
+Yalnızca true (doğru) veya false (yanlış) değerlerini alır.<br><br>
+
+<img width="417" height="180" alt="image" src="https://github.com/user-attachments/assets/59e01cd7-886c-4751-99e5-dc48cec7f78d" />
+<br>
+Örnek bir Boolean kullanımı...<br><br>
+
+<img width="662" height="212" alt="image" src="https://github.com/user-attachments/assets/0bca5374-2115-42c0-bbbd-38821a22f30c" />
+<br><br>
