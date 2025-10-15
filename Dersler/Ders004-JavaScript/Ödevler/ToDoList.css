@@ -1,0 +1,25 @@
+body {
+  background: #f7f9fc;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+
+  &.completed {
+    text-decoration: line-through;
+    color: #888;
+    background-color: #e9ecef;
+  }
+
+  .btn-group {
+    display: flex;
+    gap: 5px;
+  }
+}
