@@ -15,6 +15,9 @@
 - [D3.js](https://d3js.org/)
 - [Three.js](https://threejs.org/)
 - [JSON.Placeholder](https://jsonplaceholder.typicode.com/)
+- [React](https://tr.react.dev/)
+- [Vite](https://vite.dev/guide/)
+- [Bun](https://bun.sh/)
 
 ## Extra Kaynaklar
 
